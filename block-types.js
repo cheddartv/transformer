@@ -1,11 +1,10 @@
 const blockTypes = {
   PARAGRAPH: 'paragraph',
-  IMAGE: 'image',
-  SPOT_IM: 'spotim',
-  TWITTER: 'twitter',
-  EMBED: 'embed',
-  HEADER: 'header', //header has levels
+  HEADER: 'header',
   LIST: 'list',
+  IMAGE: 'image',
+  EMBED: 'embed',
+  TWITTER: 'twitter',
   QUOTE: 'quote'
 }
 
