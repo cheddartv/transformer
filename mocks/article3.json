@@ -1,0 +1,24 @@
+{
+  "data": {
+    "storyCollection": {
+      "items": [
+        {
+          "title": "LIVE UPDATES: The latest developments on the Russia-Ukraine Crisis",
+          "body": {
+            "time": 1645536735542,
+            "blocks": [
+              {
+                "data": {
+                  "id": "25T13WruHHcEbnYguV4PTTQTa0d",
+                  "org_id": "sp_jdoMBksO"
+                },
+                "type": "spotim"
+              }
+            ],
+            "version": "2.19.3"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "data": {
+    "storyCollection": {
+      "items": [
+        {
+          "title": "Cold, breezy temps expected this weekend for New York City",
+          "body": {
+            "time": 1645879731177,
+            "blocks": [
+              {
+                "data": {
+                  "text": "<b>News 12 </b>meteorologists say Saturday will be mostly sunny before drop this weekend for New York City.&nbsp;"
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>SATURDAY NIGHT:</b> A clear sky and bitterly cold, lows from the mid to upper-20s."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "file": {
+                    "url": "https://images.ctfassets.net/3kqcuzntcg31/cOpyGRYNloIdLilQw2niR/c18afe600895f0d9cdd7baae1653f21e/a7144bae-12d1-4fcf-bc20-3ff0b9457646.png_width_1200_amp_auto_webp"
+                  },
+                  "caption": "",
+                  "stretched": false,
+                  "withBorder": false,
+                  "withBackground": false
+                },
+                "type": "image"
+              },
+              {
+                "data": {
+                  "text": "<b>SUNDAY: </b>Sunshine early, partly sunny by the afternoon, highs from the low to mid-40s. Gust to 30 mph."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>SUNDAY NIGHT: Bitter Blast:</b> Turning mostly clear and bitterly cold, lows in the low-20s. Single digit wind chills by the Monday morning wake-up."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>MONDAY: Bitter Blast: </b>Sunny and very cold, highs only reaching low to mid-30s."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "file": {
+                    "url": "https://images.ctfassets.net/3kqcuzntcg31/7sTSYM9wGmxln9zJhH7K5T/91ce1c1453631278f7439d78afba1c6a/b9947fbf-49c7-46b0-8985-36c82a0ab5e7.png_width_1200_amp_auto_webp"
+                  },
+                  "caption": "",
+                  "stretched": false,
+                  "withBorder": false,
+                  "withBackground": false
+                },
+                "type": "image"
+              },
+              {
+                "data": {
+                  "text": "<b>MONDAY NIGHT: </b>Partly cloudy, very cold, lows from the low to mid-20s."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>TUESDAY: </b>Partly sunny, not as cold, highs in the low 40s."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>TUESDAY NIGHT: </b>Partly cloudy and cold, lows in the low 30s."
+                },
+                "type": "paragraph"
+              },
+              {
+                "data": {
+                  "text": "<b>WEDNESDAY: </b>Partly sunny, highs from the low to mid-40s."
+                },
+                "type": "paragraph"
+              }
+            ],
+            "version": "2.19.3"
+          }
+        }
+      ]
+    }
+  }
+}
