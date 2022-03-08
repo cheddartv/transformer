@@ -1,18 +1,3 @@
-//Supported blocks
-/*
-  Paragraph
-  Header
-  Table
-  Raw
-  Delimiter
-  Code
-  Quote
-  List
-  Embed
-  Image
-  Simple-image
- */
-
 describe('Test cases', () => {
   it('Render paragraph 1', () => {
     const block = {

@@ -2,16 +2,15 @@ export default {
   image: {
   },
   paragraph: {
-    blockClass: "block",
+    class: 'block',
   },
-  code: {
-    codeBlockClass: "code-block",
+  quote: {
+    class: 'left'
+  },
+  tweet: {
+    class: 'twitter-tweet'
   },
   embed: {
     useProvidedLength: false
-  },
-  quote: {
-    applyAlignment: false,
-    // if set to true blockquote element will have text-align css property set
   }
 }

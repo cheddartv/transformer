@@ -5,7 +5,12 @@ const blockTypes = {
   IMAGE: 'image',
   EMBED: 'embed',
   TWITTER: 'twitter',
-  QUOTE: 'quote'
+  QUOTE: 'quote',
+  SPOT_IM: 'spotim'
 }
+
+//TODO: Tagboard is its own type as well
+//TODO: Video is its own type as well
+
 
 export default blockTypes

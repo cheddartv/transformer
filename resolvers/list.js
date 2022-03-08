@@ -15,7 +15,7 @@ export default (data, config) => {
   /*
       <div class=\"list\"><ol><li>Blan blah list item 1</li><li>Second item is also just for an example</li><li>Third example is total waste of time</li></ol></div>
    */
-  const type = data.style === "ordered" ? "ol" : "ul"
-  const items = data.items.reduce((acc, item) => acc + `<li>${item}</li>`, "")
-  return `<${type}>${items}</${type}>`
+  const type = data.style === 'ordered' ? 'ol' : 'ul'
+  const items = data.items.reduce((acc, item) => acc + `<li>${item}</li>`, '')
+  return `<div class=\"list\"><${type}>${items}</${type}></div>`
 }
