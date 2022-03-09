@@ -7,7 +7,8 @@ const blockTypes = {
   TWITTER: 'twitter',
   QUOTE: 'quote',
   SPOT_IM: 'spotim',
-  TAGBOARD: 'tagboard'
+  TAGBOARD: 'tagboard',
+  VIDEO: 'video'
 }
 
 //TODO: Video is its own type as well

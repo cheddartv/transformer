@@ -19,6 +19,9 @@ module.exports = {
       class: 'form-embed'
     }
   },
+  video: {
+    class: 'article-body-video'
+  },
   tagboard: {
     class: 'tagboard-embed'
   }

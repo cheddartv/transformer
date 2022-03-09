@@ -1,5 +1,5 @@
 {
-  "time": 1646842763036,
+  "time": 1646851238370,
   "blocks": [
     {
       "data": {
@@ -23,6 +23,17 @@
         "text": "<a href=\"https://newjersey.news12.com/being-a-part-of-the-celebration-president-ceo-of-fortunoff-looks-back-on-a-century-of-family-business\">Some random link</a>"
       },
       "type": "paragraph"
+    },
+    {
+      "data": {
+        "embed": "https://www.facebook.com/video/embed?video_id=1566308450213846",
+        "width": 552,
+        "height": 315,
+        "source": "https://www.facebook.com/1424858414264105/videos/1566308450213846",
+        "caption": "",
+        "service": "facebook"
+      },
+      "type": "embed"
     },
     {
       "data": {

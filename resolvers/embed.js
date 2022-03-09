@@ -1,31 +1,34 @@
+const youtubeRenderer = require('./youtube')
+const cheddarRenderer = require('./video')
+const carouselRenderer = require('./carousel')
+const formRenderer = require('./form')
+const facebookRenderer = require('./facebook')
+
 const embedTypes = {
-  YOUTUBE: 'youtube', //Done
-  CHEDDAR_VIDEO: 'cheddar', //Done
-  FACEBOOK: 'facebook', //Todo: don't have an example of one
+  YOUTUBE: 'youtube',
+  CHEDDAR_VIDEO: 'cheddar',
+  FACEBOOK: 'facebook',
   UGC_CAROUSEL: 'ugc_carousel',
   UGC_FORM: 'ugc_form'
 }
 
-export default (data, config) => {
-  //If youtube
-  return `<div class=\"${config.embed.class}\" style=\"width: ${data.width}px;\">
-    <embed class=\"${config.embed.class}\" height=\"${data.height}\" width=\"${data.width}\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
+const embedRenderMap = new Map()
+embedRenderMap.set(embedTypes.YOUTUBE, youtubeRenderer)
+embedRenderMap.set(embedTypes.CHEDDAR_VIDEO, cheddarRenderer)
+embedRenderMap.set(embedTypes.UGC_CAROUSEL, carouselRenderer)
+embedRenderMap.set(embedTypes.UGC_FORM, formRenderer)
+embedRenderMap.set(embedTypes.FACEBOOK, facebookRenderer)
 
-  //If cheddar video
-  return `<div class=\"${config.embed.class}\" style=\"width: ${data.width}px;\">
-    <embed class=\"${config.embed.class}\" height=\"${data.height}\" width=\"${data.width}\"
-    src=\"${data.embed}\">
-    <em>${data.caption}</em></div>`
+//You can expect to get the full block here
+//TODO: Facebook video
 
-  //If ugc carousel
-  return `<div class=\"${config.embed.class}\">
-    <embed class=\"${config.carousel.class}\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
-
-  //If ugc form
-  return `<div class=\"${config.embed.class}\">
-    <embed class=\"\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
-
-  //TODO: Facebook video
-  //Dont have a facebook video as an example, I dont have a facebook example
-  return ``
+module.exports = (data, config) => {
+  const renderer = embedRenderMap.get(data.service)
+  if(renderer) {
+    return renderer(data, config)
+  }
+  else
+    return ''
 }
+
+

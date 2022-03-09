@@ -1,4 +1,7 @@
 //Lets do the embed block at the last
+const embedResolver = require('../embed')
+const config = require('../../config')
+
 describe('embed', () => {
   describe('youtube', () => {
     const youtubeBlock = {
@@ -13,8 +16,13 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    it('should render the embed block correctly', () => {
-      console.log(youtubeBlock)
+    it('should map youtube html correctly', () => {
+      const embedHtml = embedResolver(youtubeBlock.data, config)
+      const expectedHtml = `<div class=\"embed\" style=\"width: 580px;\">
+    <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  
+    <em></em>
+    </div>`
+      expect(embedHtml).toBe(expectedHtml)
     })
   })
 
@@ -30,6 +38,12 @@ describe('embed', () => {
       },
       "type": "embed"
     }
+
+    it('should map cheddar video html correctly', () => {
+      const embedHtml = embedResolver(cheddarVideoBlock.data, config)
+      const expectedHtml = `<div class=\"embed\" style="width: 560px;"> <embed class=\"embed\" height=\"315\" width=\"560\" src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\"><em></em></div>`
+      expect(embedHtml).toBe(expectedHtml)
+    })
   })
 
   describe('ugc carousel', () => {
@@ -42,7 +56,11 @@ describe('embed', () => {
       },
       "type": "embed"
     }
-    console.log(ugcCarousel)
+
+    it('should map carousel html correctly', () => {})
+      const carouselHtml = embedResolver(ugcCarousel.data, config)
+      const expectedHtml = `<div class=\"embed\"><embed class=\"carousel-embed\" src=\"https://ugc.curds.io/carousel/8\">  <em></em></div>`
+      expect(carouselHtml).toBe(expectedHtml)
   })
 
   describe('ugc form', () => {
@@ -56,6 +74,47 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    console.log(ugcForm)
+    it('should map ugc form correctly', () => {
+      const formHtml = embedResolver(ugcForm.data, config)
+      const expectedHtml = `<div class=\"embed\"><embed class=\"form-embed\" src=\"https://ugc.curds.io/formviewer/display/365\">  <em></em></div>`
+      expect(formHtml).toBe(expectedHtml)
+    })
+  })
+
+  describe('facebook video', () => {
+    const facebookVideo = {
+      "data": {
+        "embed": "https://www.facebook.com/video/embed?video_id=1566308450213846",
+        "width": 552,
+        "height": 315,
+        "source": "https://www.facebook.com/1424858414264105/videos/1566308450213846",
+        "caption": "",
+        "service": "facebook"
+      },
+      "type": "embed"
+    }
+
+    it('should map facebook video correctly', () => {
+      const facebookVideoHtml = embedResolver(facebookVideo.data, config)
+      const expectedHtml = `<div class="embed" style="width: 552px;"><embed class="embed" height="315" width="552" src="https://www.facebook.com/video/embed?video_id=1566308450213846"> <em></em></div>`
+      expect(facebookVideoHtml).toBe(expectedHtml)
+    })
+  })
+
+  describe('when there is an invalid embed type', () => {
+    const invalidBlock = {
+      "data": {
+        "embed": "abc",
+        "width": 552,
+        "height": 315,
+        "source": "xyz",
+        "caption": "",
+        "service": "blah"
+      },
+      "type": "embed"
+    }
+
+    const result = embedResolver(invalidBlock, config)
+    expect(result).toBe('')
   })
 })
