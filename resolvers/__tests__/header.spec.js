@@ -1,5 +1,18 @@
-describe('header', () => {
-  it('should render the header block correctly', () => {
+const headerResolver = require('../header')
+const config = require('../../config')
 
+describe('header', () => {
+  const block =               {
+    "data": {
+      "text": "WHAT ELSE IS HAPPENING ON THE GROUND:",
+      "level": 2
+    },
+    "type": "header"
+  }
+
+  it('should render the header block correctly', () => {
+    const headerNode = headerResolver(block.data, config)
+    const expectedHtml = `<h2>WHAT ELSE IS HAPPENING ON THE GROUND:</h2>`
+    expect(headerNode).toBe(expectedHtml)
   })
 })

@@ -1,14 +1,31 @@
-export default () => {
-  //TODO: Take care of embed type
-  //There are different types of embed
-  //Youtube is probably an embed type
-  // YOUTUBE
-  /*
-  <div class=\"embed\" style=\"width: 580px;\">  <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  <em></em></div>
-   */
+const embedTypes = {
+  YOUTUBE: 'youtube', //Done
+  CHEDDAR_VIDEO: 'cheddar', //Done
+  FACEBOOK: 'facebook', //Todo: don't have an example of one
+  UGC_CAROUSEL: 'ugc_carousel',
+  UGC_FORM: 'ugc_form'
+}
 
-  //UGC embed
-  /*
-  <div class=\"embed\" style=\"width: px;\">  <embed class=\"carousel-embed\" height=\"\" width=\"\" src=\"https://ugc.curds.io/carousel/8\">  <em></em></div>
-   */
+export default (data, config) => {
+  //If youtube
+  return `<div class=\"${config.embed.class}\" style=\"width: ${data.width}px;\">
+    <embed class=\"${config.embed.class}\" height=\"${data.height}\" width=\"${data.width}\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
+
+  //If cheddar video
+  return `<div class=\"${config.embed.class}\" style=\"width: ${data.width}px;\">
+    <embed class=\"${config.embed.class}\" height=\"${data.height}\" width=\"${data.width}\"
+    src=\"${data.embed}\">
+    <em>${data.caption}</em></div>`
+
+  //If ugc carousel
+  return `<div class=\"${config.embed.class}\">
+    <embed class=\"${config.carousel.class}\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
+
+  //If ugc form
+  return `<div class=\"${config.embed.class}\">
+    <embed class=\"\" src=\"${data.embed}\">  <em>${data.caption}</em></div>`
+
+  //TODO: Facebook video
+  //Dont have a facebook video as an example, I dont have a facebook example
+  return ``
 }

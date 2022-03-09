@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   image: {
   },
   paragraph: {
@@ -11,6 +11,15 @@ export default {
     class: 'twitter-tweet'
   },
   embed: {
-    useProvidedLength: false
+    class: 'embed',
+    carousel: {
+      class: 'carousel-embed'
+    },
+    form: {
+      class: 'form-embed'
+    }
+  },
+  tagboard: {
+    class: 'tagboard-embed'
   }
 }

@@ -6,7 +6,8 @@ const blockTypes = {
   EMBED: 'embed',
   TWITTER: 'twitter',
   QUOTE: 'quote',
-  SPOT_IM: 'spotim'
+  SPOT_IM: 'spotim',
+  TAGBOARD: 'tagboard' //tagboard is another block type
 }
 
 //TODO: Tagboard is its own type as well
