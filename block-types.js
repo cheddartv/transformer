@@ -11,6 +11,4 @@ const blockTypes = {
   VIDEO: 'video'
 }
 
-//TODO: Video is its own type as well
-
-export default blockTypes
+module.exports = blockTypes

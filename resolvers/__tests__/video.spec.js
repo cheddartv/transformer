@@ -1,5 +1,5 @@
-const videoResolver = require('../video')
-const config = require('../../config')
+import videoResolver from '../video'
+import config from '../../config'
 
 describe('video', () => {
   it('should render video html correctly', () => {

@@ -1,8 +1,8 @@
-const youtubeRenderer = require('./youtube')
-const cheddarRenderer = require('./video')
-const carouselRenderer = require('./carousel')
-const formRenderer = require('./form')
-const facebookRenderer = require('./facebook')
+import { youtubeResolver } from "./index"
+import { cheddarResolver} from "./index"
+import { carouselResolver} from "./index";
+import { formResolver } from "./index";
+import { facebookResolver } from "./index"
 
 const embedTypes = {
   YOUTUBE: 'youtube',
@@ -13,16 +13,16 @@ const embedTypes = {
 }
 
 const embedRenderMap = new Map()
-embedRenderMap.set(embedTypes.YOUTUBE, youtubeRenderer)
-embedRenderMap.set(embedTypes.CHEDDAR_VIDEO, cheddarRenderer)
-embedRenderMap.set(embedTypes.UGC_CAROUSEL, carouselRenderer)
-embedRenderMap.set(embedTypes.UGC_FORM, formRenderer)
-embedRenderMap.set(embedTypes.FACEBOOK, facebookRenderer)
+embedRenderMap.set(embedTypes.YOUTUBE, youtubeResolver)
+embedRenderMap.set(embedTypes.CHEDDAR_VIDEO, cheddarResolver)
+embedRenderMap.set(embedTypes.UGC_CAROUSEL, carouselResolver)
+embedRenderMap.set(embedTypes.UGC_FORM, formResolver)
+embedRenderMap.set(embedTypes.FACEBOOK, facebookResolver)
 
 //You can expect to get the full block here
 //TODO: Facebook video
 
-module.exports = (data, config) => {
+export default (data, config) => {
   const renderer = embedRenderMap.get(data.service)
   if(renderer) {
     return renderer(data, config)

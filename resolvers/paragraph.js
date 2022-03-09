@@ -1,3 +1,3 @@
-module.exports = (data, config) => {
+export default (data, config) => {
   return `<div class=\"${config.paragraph.class}\"> ${data.text} </div>` //paragraph is a div with block class
 }

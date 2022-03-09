@@ -1,5 +1,4 @@
-import {listResolver, paragraphResolver, headerResolver, imageResolver, tagboardResolver} from './resolvers'
-import { embedResolver, twitterResolver, quoteResolver, spotimResolver, videoResolver } from './resolvers'
+import { listResolver, paragraphResolver, headerResolver, imageResolver, tagboardResolver, embedResolver, twitterResolver, quoteResolver, spotimResolver, videoResolver }  from './resolvers'
 import blockTypes from './block-types'
 
 const blockMap = new Map()
