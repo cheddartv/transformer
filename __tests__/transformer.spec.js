@@ -1,5 +1,6 @@
-import Transformer from '../transformer'
 import blocks from '../mocks/article.json'
+
+import Transformer from '../transformer'
 
 describe('Transformer', () => {
   it('should parse blocks correctly', () => {
