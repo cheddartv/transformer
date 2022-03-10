@@ -21,5 +21,3 @@ export default (data, config) => {
   else
     return ''
 }
-
-
