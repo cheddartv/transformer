@@ -1,7 +1,7 @@
 {
-  "name": "editorjs-parser",
+  "name": "transformer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Editor.js parser",
   "main": "index.js",
   "type": "module",
   "scripts": {
