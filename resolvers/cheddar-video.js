@@ -1,6 +1,3 @@
-//TODO: Fix cheddar video
-
 export default (data, config) => {
-  return `<div class=\"${config.video.class}\" data-caption=\"\" data-isLive=\"${data.isLive}\" data-src=\"${data.url}\"></div>`
+  return `<div class=\"${config.embed.class}\" style="width: ${data.width}px;"><embed class=\"${config.embed.class}\" height=\"${data.height}\" width=\"${data.width}\" src=\"${data.embed}\"><em></em></div>`
 }
-klbdfb

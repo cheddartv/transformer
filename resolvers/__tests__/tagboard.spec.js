@@ -1,5 +1,5 @@
-const tagboardResolver = require('../tagboard')
-const config = require('../../config')
+import tagboardResolver from '../tagboard'
+import config from '../../config'
 
 describe('tagboard', () => {
   const block = {

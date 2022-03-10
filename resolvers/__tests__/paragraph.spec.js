@@ -1,5 +1,5 @@
-const paragraphResolver = require('../paragraph')
-const config = require('../../config')
+import paragraphResolver from '../paragraph'
+import config from '../../config'
 
 describe('paragraph', () => {
   it('should render the paragraph#1 block correctly', () => {
@@ -24,30 +24,5 @@ describe('paragraph', () => {
     const expectedHtml = `<div class=\"block\"> <i>View photos below.</i> </div>`
     const paragraphNode = paragraphResolver(blocks.data, config)
     expect(paragraphNode).toBe(expectedHtml)
-  })
-
-  it('test', () => {
-    let blocks = [
-      {
-        "data": {
-          "text": "Regardless of the car you drive, there are tricks you can use that will help you save gas. "
-        },
-        "type": "paragraph"
-      },
-      {
-        "data": {
-          "text": "According to State Farm, good driving habits contribute to better fuel economy, which saves money and helps the planet, too."
-        },
-        "type": "paragraph"
-      }
-    ]
-    blocks.reduce((previousBlock, block, index) => {
-      console.log('Previous value', previousBlock)
-      console.log('Current value', block)
-      console.log('index', index)
-      console.log('arr', arr)
-
-    }, '')
-    console.log(blocks)
   })
 })

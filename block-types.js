@@ -11,4 +11,4 @@ const blockTypes = {
   VIDEO: 'video'
 }
 
-module.exports = blockTypes
+export default blockTypes

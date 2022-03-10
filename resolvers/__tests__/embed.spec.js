@@ -1,6 +1,5 @@
-//Lets do the embed block at the last
-const embedResolver = require('../embed')
-const config = require('../../config')
+import embedResolver from '../embed'
+import config from '../../config'
 
 describe('embed', () => {
   describe('youtube', () => {
@@ -16,7 +15,7 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    it('should map youtube html correctly', () => {
+    it('should map youtube node correctly', () => {
       const embedHtml = embedResolver(youtubeBlock.data, config)
       const expectedHtml = `<div class=\"embed\" style=\"width: 580px;\">
     <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  
@@ -39,9 +38,9 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    it('should map cheddar video html correctly', () => {
+    it('should map cheddar video node correctly', () => {
       const embedHtml = embedResolver(cheddarVideoBlock.data, config)
-      const expectedHtml = `<div class=\"embed\" style="width: 560px;"> <embed class=\"embed\" height=\"315\" width=\"560\" src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\"><em></em></div>`
+      const expectedHtml = `<div class=\"embed\" style="width: 560px;"><embed class=\"embed\" height=\"315\" width=\"560\" src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\"><em></em></div>`
       expect(embedHtml).toBe(expectedHtml)
     })
   })
@@ -57,7 +56,7 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    it('should map carousel html correctly', () => {})
+    it('should map carousel node correctly', () => {})
       const carouselHtml = embedResolver(ugcCarousel.data, config)
       const expectedHtml = `<div class=\"embed\"><embed class=\"carousel-embed\" src=\"https://ugc.curds.io/carousel/8\">  <em></em></div>`
       expect(carouselHtml).toBe(expectedHtml)
@@ -94,7 +93,7 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    it('should map facebook video correctly', () => {
+    it('should map facebook video node correctly', () => {
       const facebookVideoHtml = embedResolver(facebookVideo.data, config)
       const expectedHtml = `<div class="embed" style="width: 552px;"><embed class="embed" height="315" width="552" src="https://www.facebook.com/video/embed?video_id=1566308450213846"> <em></em></div>`
       expect(facebookVideoHtml).toBe(expectedHtml)
@@ -114,7 +113,9 @@ describe('embed', () => {
       "type": "embed"
     }
 
-    const result = embedResolver(invalidBlock, config)
-    expect(result).toBe('')
+    it('should return empty string', () => {
+      const result = embedResolver(invalidBlock, config)
+      expect(result).toBe('')
+    })
   })
 })

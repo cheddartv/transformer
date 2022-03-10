@@ -1,5 +1,5 @@
-const twitterResolver = require('../twitter')
-const config = require('../../config')
+import twitterResolver from '../twitter'
+import config from '../../config'
 
 describe('twitter', () => {
   const blocks = {

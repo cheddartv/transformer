@@ -1,5 +1,5 @@
-const quoteResolver = require('../quote')
-const config = require('../../config')
+import quoteResolver from '../quote'
+import config from '../../config'
 
 describe('quote', () => {
   it('should render the quote block correctly', () => {

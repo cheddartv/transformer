@@ -1,8 +1,8 @@
-const headerResolver = require('../header')
-const config = require('../../config')
+import headerResolver from '../header.js'
+import config from '../../config.js'
 
 describe('header', () => {
-  const block =               {
+  const block = {
     "data": {
       "text": "WHAT ELSE IS HAPPENING ON THE GROUND:",
       "level": 2

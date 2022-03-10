@@ -1,8 +1,8 @@
-import { youtubeResolver } from "./index"
-import { cheddarResolver} from "./index"
-import { carouselResolver} from "./index";
-import { formResolver } from "./index";
-import { facebookResolver } from "./index"
+import youtubeResolver from './youtube.js'
+import cheddarResolver from './cheddar-video.js'
+import carouselResolver from './carousel.js'
+import formResolver from './form.js'
+import facebookResolver from './facebook.js'
 
 const embedTypes = {
   YOUTUBE: 'youtube',
@@ -18,9 +18,6 @@ embedRenderMap.set(embedTypes.CHEDDAR_VIDEO, cheddarResolver)
 embedRenderMap.set(embedTypes.UGC_CAROUSEL, carouselResolver)
 embedRenderMap.set(embedTypes.UGC_FORM, formResolver)
 embedRenderMap.set(embedTypes.FACEBOOK, facebookResolver)
-
-//You can expect to get the full block here
-//TODO: Facebook video
 
 export default (data, config) => {
   const renderer = embedRenderMap.get(data.service)

@@ -1,5 +1,5 @@
-const imageResolver = require('../image')
-const config = require('../../config')
+import imageResolver from '../image'
+import config from '../../config'
 
 describe('image', () => {
   it('should render the image block correctly', () => {

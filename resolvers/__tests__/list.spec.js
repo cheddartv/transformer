@@ -1,5 +1,5 @@
-const listResolver = require('../list')
-const config = require('../../config')
+import listResolver from '../list'
+import config from '../../config'
 
 describe('list', () => {
   it('should render the list block correctly', () => {

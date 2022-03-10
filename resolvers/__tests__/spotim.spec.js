@@ -1,5 +1,5 @@
-const spotimResolver = require('../spotim')
-const config = require('../../config')
+import spotimResolver from '../spotim'
+import config from '../../config'
 
 describe('spotim', () => {
   const block = {
