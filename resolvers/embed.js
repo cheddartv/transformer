@@ -4,13 +4,7 @@ import carouselResolver from './carousel.js'
 import formResolver from './form.js'
 import facebookResolver from './facebook.js'
 
-const embedTypes = {
-  YOUTUBE: 'youtube',
-  CHEDDAR_VIDEO: 'cheddar',
-  FACEBOOK: 'facebook',
-  UGC_CAROUSEL: 'ugc_carousel',
-  UGC_FORM: 'ugc_form'
-}
+import embedTypes from '../embed-types'
 
 const embedRenderMap = new Map()
 embedRenderMap.set(embedTypes.YOUTUBE, youtubeResolver)
