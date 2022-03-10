@@ -1,5 +1,7 @@
-import embedResolver from '../embed'
 import config from '../../config'
+import formatString from '../../util/formatString'
+
+import embedResolver from '../embed'
 
 describe('embed', () => {
   describe('youtube', () => {
@@ -17,11 +19,12 @@ describe('embed', () => {
 
     it('should map youtube node correctly', () => {
       const embedHtml = embedResolver(youtubeBlock.data, config)
-      const expectedHtml = `<div class=\"embed\" style=\"width: 580px;\">
-    <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  
-    <em></em>
-    </div>`
-      expect(embedHtml).toBe(expectedHtml)
+      const expectedHtml = `
+        <div class=\"embed\" style=\"width: 580px;\">
+          <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  
+          <em></em>
+        </div>`
+      expect(formatString(embedHtml)).toBe(formatString(expectedHtml))
     })
   })
 
@@ -40,8 +43,14 @@ describe('embed', () => {
 
     it('should map cheddar video node correctly', () => {
       const embedHtml = embedResolver(cheddarVideoBlock.data, config)
-      const expectedHtml = `<div class=\"embed\" style="width: 560px;"><embed class=\"embed\" height=\"315\" width=\"560\" src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\"><em></em></div>`
-      expect(embedHtml).toBe(expectedHtml)
+      const expectedHtml = `
+        <div class=\"embed\" style="width: 560px;">
+          <embed class=\"embed\" height=\"315\" width=\"560\" 
+            src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\">
+          <em></em>
+        </div>`
+
+      expect(formatString(embedHtml)).toBe(formatString(expectedHtml))
     })
   })
 
@@ -57,9 +66,14 @@ describe('embed', () => {
     }
 
     it('should map carousel node correctly', () => {})
+    const expectedHtml = `
+      <div class=\"embed\">
+        <embed class=\"carousel-embed\" src=\"https://ugc.curds.io/carousel/8\">  
+        <em></em>
+      </div>`
+
       const carouselHtml = embedResolver(ugcCarousel.data, config)
-      const expectedHtml = `<div class=\"embed\"><embed class=\"carousel-embed\" src=\"https://ugc.curds.io/carousel/8\">  <em></em></div>`
-      expect(carouselHtml).toBe(expectedHtml)
+      expect(formatString(carouselHtml)).toBe(formatString(expectedHtml))
   })
 
   describe('ugc form', () => {
@@ -74,9 +88,14 @@ describe('embed', () => {
     }
 
     it('should map ugc form correctly', () => {
+      const expectedHtml = `
+        <div class=\"embed\">
+          <embed class=\"form-embed\" src=\"https://ugc.curds.io/formviewer/display/365\">  
+          <em></em>
+        </div>`
+
       const formHtml = embedResolver(ugcForm.data, config)
-      const expectedHtml = `<div class=\"embed\"><embed class=\"form-embed\" src=\"https://ugc.curds.io/formviewer/display/365\">  <em></em></div>`
-      expect(formHtml).toBe(expectedHtml)
+      expect(formatString(formHtml)).toBe(formatString(expectedHtml))
     })
   })
 
@@ -94,9 +113,15 @@ describe('embed', () => {
     }
 
     it('should map facebook video node correctly', () => {
+      const expectedHtml = `
+        <div class="embed" style="width: 552px;">
+          <embed class="embed" height="315" width="552" 
+            src="https://www.facebook.com/video/embed?video_id=1566308450213846">
+          <em></em>
+        </div>`
+
       const facebookVideoHtml = embedResolver(facebookVideo.data, config)
-      const expectedHtml = `<div class="embed" style="width: 552px;"><embed class="embed" height="315" width="552" src="https://www.facebook.com/video/embed?video_id=1566308450213846"> <em></em></div>`
-      expect(facebookVideoHtml).toBe(expectedHtml)
+      expect(formatString(facebookVideoHtml)).toBe(formatString(expectedHtml))
     })
   })
 
