@@ -1,6 +1,5 @@
 export default {
-  image: {
-  },
+  image: {},
   paragraph: {
     class: 'block',
   },
