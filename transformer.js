@@ -12,5 +12,5 @@ class Transformer {
     }, '')
   }
 }
-const transform = new Transformer()
-export const { parse } = transform
+
+export const { parse } = new Transformer()
