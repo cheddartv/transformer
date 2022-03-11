@@ -13,4 +13,6 @@ class Transformer {
   }
 }
 
-export const { parse } = new Transformer()
+const { parse } = new Transformer()
+
+export default parse
