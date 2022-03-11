@@ -9,7 +9,7 @@ describe('paragraph', () => {
     },
       "type": "paragraph"
     }
-    const expectedHtml = `<div class=\"block\"> <a href=\"https://newjersey.news12.com/guide-st-patricks-day-parades-in-new-jersey\">CLICK HERE</a> to see a schedule of parades across New Jersey. </div>`
+    const expectedHtml = `<div class=\"block\"><a href=\"https://newjersey.news12.com/guide-st-patricks-day-parades-in-new-jersey\">CLICK HERE</a> to see a schedule of parades across New Jersey.</div>`
     const paragraphNode = paragraphResolver(blocks.data, config)
     expect(paragraphNode).toBe(expectedHtml)
   })
@@ -21,7 +21,7 @@ describe('paragraph', () => {
       },
       "type": "paragraph"
     }
-    const expectedHtml = `<div class=\"block\"> <i>View photos below.</i> </div>`
+    const expectedHtml = `<div class=\"block\"><i>View photos below.</i></div>`
     const paragraphNode = paragraphResolver(blocks.data, config)
     expect(paragraphNode).toBe(expectedHtml)
   })
