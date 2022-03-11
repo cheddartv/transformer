@@ -3,6 +3,10 @@ import config from './config.js'
 
 class Transformer {
   parse(blocks) {
+    if(!blocks || !Array.isArray(blocks)) {
+      return ''
+    }
+
     return blocks.reduce((parsedString, block) => {
       const resolver = blockMap.get(block.type)
       if(resolver) {
