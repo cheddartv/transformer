@@ -1,7 +1,7 @@
 import blockMap from './parser.js'
 import config from './config.js'
 
-export default class Transformer {
+class Transformer {
   parse(blocks) {
     return blocks.reduce((parsedString, block) => {
       const resolver = blockMap.get(block.type)
@@ -12,3 +12,5 @@ export default class Transformer {
     }, '')
   }
 }
+const transform = new Transformer()
+export const { parse } = transform
