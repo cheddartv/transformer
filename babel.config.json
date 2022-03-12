@@ -4,8 +4,5 @@
       "plugins": ["@babel/plugin-transform-modules-commonjs"]
     }
   },
-  "presets": ["@babel/preset-env"],
-  "ignore": [
-    "**/__tests__"
-  ]
+  "presets": ["@babel/preset-env"]
 }

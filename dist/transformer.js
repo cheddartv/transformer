@@ -25,6 +25,10 @@ var Transformer = /*#__PURE__*/function () {
   _createClass(Transformer, [{
     key: "parse",
     value: function parse(blocks) {
+      if (!blocks || !Array.isArray(blocks)) {
+        return '';
+      }
+
       return blocks.reduce(function (parsedString, block) {
         var resolver = _parser["default"].get(block.type);
 
