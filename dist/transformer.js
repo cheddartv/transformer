@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _parser = _interopRequireDefault(require("./parser.js"));
+var _parser = require("./parser");
 
 var _config = _interopRequireDefault(require("./config.js"));
 
@@ -25,12 +25,15 @@ var Transformer = /*#__PURE__*/function () {
   _createClass(Transformer, [{
     key: "parse",
     value: function parse(blocks) {
+      var isAmpPage = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
       if (!blocks || !Array.isArray(blocks)) {
         return '';
       }
 
+      var blockMap = isAmpPage ? _parser.ampParser : _parser.standardParser;
       return blocks.reduce(function (parsedString, block) {
-        var resolver = _parser["default"].get(block.type);
+        var resolver = blockMap.get(block.type);
 
         if (resolver) {
           return parsedString + resolver(block.data, _config["default"]);

@@ -18,4 +18,12 @@ describe('Transformer', () => {
       expect(parse(blocks)).toEqual('')
     })
   })
+
+  describe('when page is AMP', () => {
+    it('should parse blocks correctly', () => {
+      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/ampArticle.html', 'utf8')
+      const parsedString = parse(blocks, true)
+      expect(formatString(parsedString)).toEqual(formatString(expectedHtml))
+    })
+    })
 })
