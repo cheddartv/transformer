@@ -1,0 +1,521 @@
+{
+  "nodeType": "document",
+  "data": {},
+  "content": [
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[facebook width=500 height=400]https://www.facebook.com/20531316728/posts/10154009990506729/[/facebook]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[twitter]https://twitter.com/Santos4Congress/status/1618822155365658625[twitter]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[youtube width=560 height=315]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[ugc-gallery]5365[/ugc-gallery]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[spotim organization=sp_jdoMBksO]5365[/spotim]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[ugc-form]5365[/ugc-form]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "code test", "marks": [ { "type": "code" } ], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-1",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 1", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-2",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 2", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-3",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 3", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-4",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 4", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-5",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 5", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "heading-6",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "Heading 6", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        { "nodeType": "text", "value": "Normal text but bold", "marks": [ { "type": "bold" } ], "data": {} }
+      ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        { "nodeType": "text", "value": "Normal text but italic", "marks": [ { "type": "italic" } ], "data": {} }
+      ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        { "nodeType": "text", "value": "Normal text but underline", "marks": [ { "type": "underline" } ], "data": {} }
+      ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "This is rext inside paragraph that also contains a link starts: ",
+          "marks": [],
+          "data": {}
+        },
+        {
+          "nodeType": "hyperlink",
+          "data": { "uri": "https://twitter.com/status/test" },
+          "content": [ { "nodeType": "text", "value": "Sample hyperlink", "marks": [], "data": {} } ]
+        },
+        { "nodeType": "text", "value": " and ends.", "marks": [], "data": {} }
+      ]
+    },
+    {
+      "nodeType": "unordered-list",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "list-item",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [ { "nodeType": "text", "value": "Unordered list item 1", "marks": [], "data": {} } ]
+            }
+          ]
+        },
+        {
+          "nodeType": "list-item",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [ { "nodeType": "text", "value": "Unordered list item 2", "marks": [], "data": {} } ]
+            }
+          ]
+        },
+        {
+          "nodeType": "list-item",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "Unordered list item 3 with hyperlink ", "marks": [], "data": {} },
+                {
+                  "nodeType": "hyperlink",
+                  "data": { "uri": "https://google.com" },
+                  "content": [ { "nodeType": "text", "value": "test", "marks": [], "data": {} } ]
+                },
+                { "nodeType": "text", "value": " and text in ", "marks": [], "data": {} },
+                { "nodeType": "text", "value": "bold", "marks": [ { "type": "bold" } ], "data": {} }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "ordered-list",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "list-item",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [ { "nodeType": "text", "value": "Ordered list item 1", "marks": [], "data": {} } ]
+            }
+          ]
+        },
+        {
+          "nodeType": "list-item",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [ { "nodeType": "text", "value": "Ordered list item 2", "marks": [], "data": {} } ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "blockquote",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "This is a sample block quote. Shred all toilet paper and spread around the house jump on human and sleep on her all night long ",
+              "marks": [],
+              "data": {}
+            },
+            {
+              "nodeType": "text",
+              "value": "be long in the bed, purr in the morning and then give a bite to every human around for not waki",
+              "marks": [ { "type": "bold" } ],
+              "data": {}
+            },
+            {
+              "nodeType": "text",
+              "value": "ng up request food, purr loud scratch the walls, the floor, the windows, the humans nyaa nyaa for ",
+              "marks": [],
+              "data": {}
+            },
+            { "nodeType": "text", "value": "nyaa", "marks": [ { "type": "underline" } ], "data": {} },
+            { "nodeType": "text", "value": " nyaa.", "marks": [], "data": {} }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "table",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "table-row",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "table-header-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Header 1", "marks": [], "data": {} } ]
+                }
+              ]
+            },
+            {
+              "nodeType": "table-header-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Header 2", "marks": [], "data": {} } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nodeType": "table-row",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "table-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Item 1", "marks": [], "data": {} } ]
+                }
+              ]
+            },
+            {
+              "nodeType": "table-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Item 1", "marks": [], "data": {} } ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nodeType": "table-row",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "table-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Item 2", "marks": [], "data": {} } ]
+                }
+              ]
+            },
+            {
+              "nodeType": "table-cell",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [ { "nodeType": "text", "value": "Item 2", "marks": [], "data": {} } ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "This is an entry called videoFile", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "embedded-entry-block",
+      "data": {
+        "target": {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": { "sys": { "type": "Link", "linkType": "Space", "id": "vcjvsnaeixme" } },
+            "id": "3k4o43oQQ3pFCQFKzlI0bx",
+            "type": "Entry",
+            "createdAt": "2023-01-20T16:45:27.098Z",
+            "updatedAt": "2023-01-20T16:45:27.098Z",
+            "environment": { "sys": { "id": "staging", "type": "Link", "linkType": "Environment" } },
+            "revision": 1,
+            "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "videoFile" } },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "c173e4ca-d8ff-445d-890f-7c6c4145e0a0",
+            "filename": "c173e4ca-d8ff-445d-890f-7c6c4145e0a0.mp4",
+            "videoUrls": {
+              "audio/mpeg": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.mp3",
+              "image/jpeg": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.0000000.jpg",
+              "video/mp4": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.mp4",
+              "video/wsvga": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196_1024x576.mp4",
+              "video/vga": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196_854x480.mp4",
+              "application/x-mpegURL": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.m3u8"
+            },
+            "duration": 1402,
+            "height": 1080,
+            "width": 1920,
+            "md5sum": "3294437529782ca5b550f52467082b16",
+            "size": 1808589405,
+            "source": "uploads/cheddar/c173e4ca-d8ff-445d-890f-7c6c4145e0a0",
+            "transcodes": {
+              "audio/mpeg": {
+                "url": "https://cheddar-production.s3.amazonaws.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.mp3",
+                "checksum": "d6934cfcd0fc4be76b2e3a8fa2bce1d9",
+                "size": 22426017,
+                "width": 0,
+                "height": 0,
+                "duration": 1401685
+              },
+              "image/jpeg": {
+                "url": "https://cheddar-production.s3.amazonaws.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.0000000.jpg",
+                "checksum": "9eb0a4ef234aa15b8eb49e51825758f4",
+                "size": 33263,
+                "width": 1920,
+                "height": 1080,
+                "duration": 34
+              },
+              "video/mp4": {
+                "url": "https://cheddar-production.s3.amazonaws.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.mp4",
+                "checksum": "a087b202be2ff5ed4545948bd8104af3",
+                "size": 2219951032,
+                "width": 1920,
+                "height": 1080,
+                "duration": 1401666
+              },
+              "video/wsvga": {
+                "url": "https://cheddar-production.s3.amazonaws.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196_1024x576.mp4",
+                "checksum": "16ffc69a2fb62fdf0e180a33a56b0ff1",
+                "size": 2220056086,
+                "width": 1024,
+                "height": 576,
+                "duration": 1401666
+              },
+              "video/vga": {
+                "url": "https://cheddar-production.s3.amazonaws.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196_854x480.mp4",
+                "checksum": "2c00eca7f5262c55cbfee0692b437c08",
+                "size": 456523780,
+                "width": 854,
+                "height": 480,
+                "duration": 1401666
+              },
+              "application/x-mpegURL": {
+                "url": "s3://cheddar-production/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.m3u8"
+              }
+            },
+            "transcodingStatus": "COMPLETED",
+            "url": "https://cheddar-production.s3.amazonaws.com/media/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.mp4",
+            "isLive": false
+          }
+        }
+      },
+      "content": []
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "This is an entry called Embed", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "embedded-entry-block",
+      "data": {
+        "target": {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": { "sys": { "type": "Link", "linkType": "Space", "id": "vcjvsnaeixme" } },
+            "id": "1nNaRrCngO9I5n5tgMfnmC",
+            "type": "Entry",
+            "createdAt": "2022-02-08T20:54:03.278Z",
+            "updatedAt": "2022-03-22T16:24:30.463Z",
+            "environment": { "sys": { "id": "staging", "type": "Link", "linkType": "Environment" } },
+            "revision": 23,
+            "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "embed" } },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "CheddarU HTML",
+            "code": "<style>\n.fancy {\n  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAANCAYAAAAE/ZSyAAAAAXNSR0IArs4c6QAADWxJREFUaAXtWPlTlPcdfvZ93313YRdYDjmUlftwFZB4oMYoIgavaDxizOWYdHK0TdNM05mkP3Sm/aGdTKaZpm0mzaSmSSdJjYp3TKKIihrwQhRUbpD7WGDBhWWPd/ft8772r3BgBpCv7/F9Pp/n+HzXAEDl98zXTAUeqQoIjxSaGTAzFfh/BWaIPUOFR7ICM8R+JNs6A2qG2DMceCQrMEPsR7KtM6BmiD3DgUeyAtLel6uQOmcJQmoIomBE+am3kZWyFAX5L8IX8MKEEP579DU8VrATudlbEQyqCIYeYP/hV1Gy/C3Y7SuhBn3w+pw4cOo32Fz8HhKiCyCEghh3t+JQxe+xu+xPiAhLhhECBoZrcfzyB3h5/d8RZoyE0WBEa+9FVN76Cq89+QGvkHmdAbWDl3C78zxeWfouhCBgFmScbdqPntFG7F3xHkJ+FbIk4lj9Pvj4/hcK3oDi98Ioyviq9q+ICo/DjpzdCCg+4hLw6bW/IGdWHspSNsDH61QxiA9r/ox1c9eiKHElMSkIqJN4//qH2JW5HXnRC6CqxKCM46O6j7Fn3kvItNgBJYheZQifdh7Br1K3Id4Yzx0b0DLVgX+3luO3eW/AYgiH2WDArfEGHO4+h3fzXoesSqyljPOjP6F66Dremf9z4iJa0YQTziq0+Qbwpn0bWDaIooT9nYfhU7x4MecFBIIKMYjY1/I1rJIVz2TsgDfICyUDPqv/BGkxuSi1r2cdAgjRqv5V9zcU2p9AIXEF2FcvpvF5wydYnb4Z6bZ8+InrgTqOI3f2oSR3N+LCMxBkH1yBAfzQ+g1WE2uEMRFBQcLoZBsu3/4Sq5a9B8FkQ5D7HRy+itaWQyh8/I9QBSv3IWGwpwL9/TXIKfodAhBZXxnOoUpMjjZj7oJfQuGHykGDgLFgI38riJFyofBvlg5jShME1sci5oJlYwEkjA1/D5M5HpbIRQiFDOREAMM33kdk0grIc9dDZb+E4DiGLv0BcY5nIcevQFDlWsCF3tPvQEhP4o0siMQN32k+yk+1/Sh0PEdC+CHLJlyp+xwRlljMz94CRQnASBA1Nf9EclIe0uc+znt9kEicc3VfYl7WGiTF5bP3fpDZqKj+B5Y6tiDWksaNhPjiaZy59gmKC1+GxRyrf4DuUSZw+uZ/8OSiV9lkKwGqGDO4cUVpxVP5eyGqIp9vwKC7Azfun8OWgr26uCRRROfoHbQM1mJT7rNQAn5eJ+OW8yoGJ/tRlvk0/AHuVzTiQl8V/Hz/GnsJyeKDyWhCRecpRJsisWz2Cvg14vB5R9qPIcWWjgWx87nmh0DhHOw4hoXxC5Adkcb9EwPJdKDjJIrjFiLJlMQ1wCMEcKDtGJ6yl2KWGE1cBkxQJEc6z2BX2gaEG8LYMAFDyghO95zHrvStkEISRSyg09+Pn4avY2fCWq3zEGgu92gIDaNNeCp1M2vJpxlE1LkaMDDlxKaUjdxbUCd/zXCNTvpVyaX8zTVJxrneCoTJFpK6CAE2X8N1vusUEiKSkUlSB/TeGHCRGNJj5iPekgWF5sXCo7r1EHJiC2AzziGNqGH4cL3+a8zLXA+jOQ6UEvfjQuu9b5Ht2A2BxqSy9wHfCHpaTyLF8SKFZYZqkOD39cM1VofErB0kMBAiBr/qhCfQh0hjOitE9KoRHjihiD4KKYMkV/V7p7ytCLH24daFNBcVAonu7q2EIEfBZF8LJeTXzcpNvpptWZATSGo6gkSdjN35CpGxds0MWRASwj01hGv3jqF45VvciAiBm3M5m3G3uQLFq95hkbTCieiiKjt7r2PlsjcJMghZMKG97ye4pkewZAHdheQ3SSY0NJaz6T48lrudpOKa0Ywr9fthtSTAkcbNacLhdedufoGUBAcykhbzHQE2FjivNCI/aTkS6fJakoRY9JN1+7Ayuwwx1mQSR4WfPnS0/guUztuFSDqJpnx3aBLfE+zmBc/R4TUy0YW8IzjXUYEdjl28ROSaAd2T91HTXYNnKOAgCyfTXZpInCbnHbrh0yxcECYS4oazFsOTQ9hgf1LHpaXLxeFqikhBSWyRXkwTifhDVwUsshVFsxYRqwKzxOTrrkRKlB15kbl67QSK8yAJtjCuAJnhaXQw4hINOESBPZGwGImmWaQRMMWfBzu+R1naOkQZNZGE4CGukz1nsDVjI8JFC7EKcPmdqKJINuc+o4tfYM8GPD24wf6UZW8jLqKl43Y8aEbLWCtWpVEk3JtErO2uW3Cy34Vz13EfQRJHxt3+8xS9B9lziknAEE3YhKa272AyRWCuvVgnk0CTaGk8hMiYVETFL9HvJVHQRjLZZi+GKTpHxyWyh73dxxGTsBSSmeInhpAhgLGpOljlNEiI4JpAnimYkkZhEVJpqJLeQ0WdgMfXhkg6NchBzhHwe7rgHrkOW+5OJhCLRKw+9svjvItI9lDDpaXG9EA1/BO9sDE1SBmKlTFXdfMz5GWXYBZVrKgkGDVbeflDLCl8AdbIFF3VatCDqosfYVXR6wgzxfBOuhWt/1LLCZQU7GEhLbq7jE/14crdw1i3/Nf6hgUWeHD0HupbK7B+6Zt0eUEfGTr7r6G7/zbWL9xD4tBdSL0GdYAxGcBSUWs+G2GUcbX9RxJcRVH6RjpOQCfi2aZy2MLisTi5hA7GxKFb/dBWjsz4eXDEPqY7mcAKH2o5iBVJS5FGx9WeoSH+lo0oTS9FgjmRMUeRMEkONx7Adrp8lBhJVCFMBt040X4Su7K2UyRmvehDJFNl5wXsztoKMaQliYzO6W5cHajFs1k7OZLRXdnoe5Ot6Ji6jx10V63oMut7je416h3TXf3hfiWcc16jOJgk8cv1MULDcKavErPMNqyIW6YbgkCln+w+jZTIVDiimCR8npbgxzpPoICCsIenElcQCi3qePMBPJHCHlrmcA26+H9sPYzVqZsQIdmICpgOTqKq/RRWE6uJItGEPsEx8nb3WSzL2sX7TDofxibb0dF3BYX5e5iQhE8MY6MNGHE2ItPxEvehYTViZOAypjxDmJ2zi9cx5Uh+5/Al/luBLW6VLn7NJMfHLtPMBBI7ne8I6ebpNg+wNjaYQhQw3TrE2k3678AsJ9L0HvJLM6zxgUpY7WuAsLn8k1QPTsPVdBBRudugmmIpGu7PP46xpiOIzX8JPkME04RNa+y7ALdvHIvnaSMIXZhjyc3272AID8cCx9MIMOZNUhhqavchxpaKzIwyqtsPI4t+sf0okmfnw84I04quNeJc81fIn78F8TEOHZhKop6++jGWFzyDSEsyeRMiGac4lnyKdY+9QCAx3DDnPkbS1UAPVovZkDksCiz6sKcfl9q/x6ZFP4MhZORYKaF3vBl13dV4uuCVhy5E4TS6bqODzrQhYxtJ7aNwTLgxxCTxubCW44CXhdZwXeg6C5mKX5VS+pBMjLnjnUcRZ0nkyLEMXsacliTlHUeRFZ2F3GjOglocsrEH245gMZ0p1Uqhk0gKR5D9LeVYl7IGiUZGNRvmoeOWd5/BFjsdl2RiVmOUjnu86zx2cMY1cyzRmNkfGEEF676TLqyJRORal6cb15w3ed0WXXDaXH1nogXND7qw1b5JT0iJ+70xeg3D0y6snsMRRE9SGdX9layhhOWziUth84nhYs9pRIXFYH48ha6lIVOoquM45trSkM4zhLZflWS60n0C2cnLEBeRqScEDEHcJK6c7A2whGsioeOGvLjbchhZ83ZAMsXxOiDgd+G+NoLkPc9nUyRc8wWGMTx6HXNSeF6gVWmuG3C3Y4IJOcu2iCMpr2Ka+I0uKJIXYYEkvR50HEyrQ/yvEMJNDr6Tnk4u+SZqIRrDEM7ehEI+PV0me05BtMZBTnqc/AqwnEywlgMw09TEhEKKlQLzBEZRQ8ctXriXRKILcTsT0/243V+NkqK3SUK6q0HG4BDn2fYLHFV+wSJphxkj2ibu6sRbkbFVJ5g2zzaO3OTMqWIpI9Kvz+Rm1N4rZwQaUcg5XYs7mVFdVf8N4qJTkZ26hgTjfMzGXgq2YQ7n7FREk+YaJyScHqnGkuwyzI6g0vleah0nG75BqWM7onlA1A54Xo48p5oOYWPOdljFCBZYwKTiRAXHkm3Z2+msJhLnYVRXaWPJ/Od4H88oXOt0UyR9N/AsD1Gae2tRfXvsDjrGu7At4yl9BJGI9Qpn9wnfGMqS1+i4ZLrr2d7zfLaIksSVuqg1x/2Os+AsOQJLovIoEgqdEXmCjutgTDsicvWDm8ph8HDHd1gWX4AU8xw6KwdCQUH5/ZNYxwSKlbV59uGh7xhHlU088FolbQQx4IHixmli2Jq5Ve+LNrsP8uBZ3XUBG1nzIIVkYL96JztQzyQpzeSMq83fJFjH+F30TbRjRQb7oI99PLi7bmJK9WJe8no95YwUTnN/FefZMGToaejnQVBE2+BFhEcnI56HN00kIseo+21HYYufz5k2nynMcxVdd2CkCrFJRTAzSYLapE5cQ437ERe7mOkbTcKSUhSO2zQMUyCWt0gUiQFe0Quv1M9JIJfkNvLbwP2Mwu2+B2vCavZL5vNFKJ77mHTVw5b9PNcEXcDBkQZ4x5pgzdVSg3JiTf4HSLQh0U4TWq0AAAAASUVORK5CYII=');\n  background-repeat: repeat-x;\n  background-position: bottom;\n  border: 0;\n  padding-bottom: .75rem;\n  margin: 0 0 0.5rem;\n}\n\n.mobile {\n  display: none;\n}\n\n.desktop {\n  display: inherit;\n}\n\n.hero_lockup_wrapper {\n  display: flex;\n  flex-direction: row;\n}\n\n.hero_description_wrapper {\n  background-color: #02dcf3;\n  position: relative;\n  width: 75%;\n  margin-right: 10px;\n  box-sizing: border-box;\n}\n\n.hero_image_wrapper {\n  width: 25%;\n  padding-left: 10px;\n  box-sizing: border-box;\n}\n\n.hero_description {\n  position: absolute;\n  color: white;\n  font-weight: 500;\n  padding: 0 128px;\n  top: 0;\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  -webkit-font-smoothing: antialiased;\n}\n\n.highlights {\n  padding: 50px 20px;\n  position: relative;\n  list-style: none;\n  margin: -10% auto 0 auto;\n  width: 80%;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  background-color: white;\n  box-sizing: border-box;\n}\n\n.highlights li {\n  font-style: italic;\n  font-weight: 300;\n  font-size: 22px;\n  width: 380px;\n  padding: 14px 0;\n}\n\n.highlights li:before {\n  padding-right: 15px;\n  font-style: normal;\n  font-size: 25px;\n  position: relative;\n  top: 2px;\n  flex-direction: row;\n}\n\n.highlights li:nth-child(1):before {\n  content: \"\\1F30E\";\n}\n\n.highlights li:nth-child(2):before {\n  content: \"\\1F4B5\";\n}\n\n.highlights li:nth-child(3):before {\n  content: \"\\1F4C8\";\n}\n\n.highlights li:nth-child(4):before {\n  content: \"\\1F389\";\n}\n\n.highlights li:nth-child(5):before {\n  content: \"\\1F4F1\";\n}\n\n.highlights li:nth-child(6):before {\n  content: \"\\26BD\";\n}\n\n.cta {\n  position: relative;\n  background-color: #1521c2;\n  color: white;\n  -webkit-font-smoothing: antialiased;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  height: 401px;\n  overflow: hidden;\n}\n\n.cta .content_wrapper {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  text-align: center;\n  padding: 56px;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.cta .image_wrapper {\n  min-width: 536px;\n}\n\n.cta h1, .cta h3 {\n  border: 0;\n}\n\n.cta h1 {\n  font-weight: 300;\n  font-style: italic;\n  font-size: 32px;\n  margin-bottom: 16px;\n}\n\n.cta h3 {\n  font-weight: 500;\n  font-size: 18px;\n  font-style: normal;\n  line-height: 25px;\n  margin-bottom: 26px;\n}\n\n.cta button, .cta a {\n  display: block;\n  text-align: center;\n  background-color: #f92586;\n  width: 190px;\n  font-weight: 700;\n  font-size: 20px;\n  border: 0;\n  outline: 0;\n  color: white;\n  -webkit-font-smoothing: antialiased;\n  padding: 18px 0;\n  border-radius: 30px;\n  cursor: pointer;\n  margin: 0 auto;\n}\n\n.cta.signup {\n  padding: 20px;\n  display: block;\n}\n\n.cta.signup .content_wrapper {\n  position: relative;\n  width: 400px;\n  height: 289px;\n  margin: 0 auto;\n  padding: 56px 300px 56px 30px;\n  text-align: left;\n  box-sizing: content-box;\n}\n\n.cta.signup .content_wrapper > div {\n  position: absolute;\n  padding: 0;\n  top: 0;\n  right: 10px;\n  height: inherit;\n  width: 366px;\n  height: 100%;\n}\n\n.cta.signup .content_wrapper > div img {\n  width: 360px;\n}\n\n.cta.signup button {\n  margin: 0;\n}\n\n.cta.getchdu {\n  background-color: #e6fff9;\n  color: black;\n}\n\n.cta.correspondant {\n  background-color: #346df8;\n  color: white;\n}\n\n.cta.correspondant .image_wrapper {\n  min-width: 402px;\n}\n\n.cta.advertise {\n  background-color: #f8f97a;\n  color: black;\n}\n\n@media (min-width: 1360px) {\n  .hero_description {\n    font-size: 40px;\n  }\n}\n\n@media (max-width: 1359px) and (min-width: 1025px) {\n  .hero_description {\n    font-size: 3vw;\n  }\n}\n\n@media (max-width: 1024px) {\n  .mobile {\n    display: inherit;\n  }\n\n  .desktop {\n    display: none;\n  }\n  \n  .hero_lockup_wrapper {\n    display: block;\n  }\n  \n  .hero_description {\n    position: inherit;\n    font-size: 40px;\n    display: block;\n    padding-top: 60px;\n    padding-bottom: 60px;\n  }\n  \n  .hero_description_wrapper {\n    width: 100%;\n    margin-right: 0;\n  }\n  \n  .hero_image_wrapper {\n    display: none;\n  }\n  \n  .highlights {\n    width: 90%;\n  }\n  \n  .cta .content_wrapper h1 {\n    text-align: left;\n  }\n  \n  .cta .content_wrapper h3 {\n    margin-bottom: 8px;\n  }\n  \n  .cta.getchdu, .cta.correspondant, .cta.advertise {\n    flex-direction: column;\n    height: auto;\n  }\n  \n  .cta.getchdu .image_wrapper, .cta.correspondant .image_wrapper, .cta.advertise .image_wrapper {\n    min-width: auto;\n    order: 2;\n  }\n}\n\n@media (max-width: 768px) {\n  .hero_description {\n    font-size: 35px;\n    padding-left: 35px;\n    padding-right: 35px;\n  }\n  \n  .cta.signup {\n    height: auto;\n    overflow: visible;\n    padding-bottom: 188px;\n    margin-bottom: 285px;\n  }\n  \n  .cta.signup .content_wrapper {\n    width: 100%;\n    display: block;\n    padding: 20px;\n    height: auto;\n    box-sizing: border-box;\n  }\n  \n  .cta.signup button {\n    margin: 0 auto;\n  }\n  \n  .cta.signup .content_wrapper > div {\n    top: auto;\n    width: 100%;\n    margin-top: 35px;\n    height: 426px;\n  }\n  \n  .cta.signup .content_wrapper > div img {\n    left: 50%;\n    margin-left: -188px;\n  }\n}\n\n@media (max-width: 540px) {\n  .hero_description {\n    font-size: 30px;\n  }\n  \n  .highlights {\n    padding: 20px;\n  }\n    \n  .highlights li {\n    font-size: 18px;\n    width: 350px;\n    padding: 7px 0;\n  }\n  \n  .highlights li:before {\n    font-size: 20px;\n    padding-right: 8px;\n  }\n}\n\n@media (max-width: 450px) {\n  .highlights {\n    width: 92%;\n  }\n  \n  .highlights li {\n    width: 275px;\n    font-size: 16px;\n  }\n}\n</style>\n\n<!DOCTYPE html>\n<column>\n  <h1 class=\"fancy\">Welcome to CheddarU</h1>\n</column>\n\n<column>\n  <div class=\"hero_lockup_wrapper\">\n    <div class=\"hero_description_wrapper\">\n      <div class=\"hero_description\">\n        The News Network Created Exclusively for College Students and Viewed on\n        over 400 Campuses throughout the US.\n      </div>\n    </div>\n    <div class=\"hero_image_wrapper\">\n      <div class=\"thumbnail__square___QI54D thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/6oueMwJMCXaiKcCXFT71mj/3202748a20c78284a597d6f24bec4382/a0251800-c73e-4651-927c-0ea26559f496.webp\"></div>\n    </div>\n  </div>\n</column>\n<!--\n<column>  <div class=\"cta signup\">\n    <div class=\"content_wrapper\">\n      <h1>Cheddar is FREE for Students on CheddarU Campuses</h1>\n      <h3>\n        Sign up with your .edu email address for a free subscription ($35/yr value)!\n      </h3>\n      <modaltrigger action=\"signup\" variant=\"cheddaru\">Sign Up</modaltrigger>\n      <asset id=\"QXNzZXQtOTQ5NA==\" transparent=\"true\" aspect_ratio=\"original\"></asset>\n    </div>\n  </div>\n</column>\n-->\n<column>\n  <videoplayer posterstyle='thumbnail__hd___2cpKu thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR' badgestyle='thumbnail__badge___1nioI thumbnail__top___zaC8K thumbnail__right___1diNb thumbnail__large___YXjGj' videourl='https://vod.chdrstatic.com/transcode/812a02a2-125b-4549-9753-f1a210544bc5/812a02a2-125b-4549-9753-f1a210544bc5.m3u8' poster='https://img.chdrstatic.com/media/10878f1e-e1f3-4388-9c4c-5b14d5f65759.jpg?source=backend&crop=1200:675,smart&width=1200&height=675&auto=webp' ></videoplayer>\n</column>\n\n<column>\n  <div class=\"thumbnail__hd___2cpKu thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/4gyuX4X7F39pQGWJy0Bnx6/45afe42bfb5517d723ef57012c14384c/cheddaru_hero.webp\"></div>\n  <ul class=\"highlights\">\n    <li>Headline National and Global Stories</li>\n    <li>Career Tips and Financial Wellness</li>\n    <li>Updates from Wall Street Business</li>\n    <li>CheddarU Campus Influencers</li>\n    <li>New Tech and Product Launches</li>\n    <li>Sports and Entertainment</li>\n  </ul>\n</column>\n\n<column>\n  <h3 class=\"fancy\">Contact Us</h3>\n</column>\n\n<column>\n  <div class=\"cta getchdu\">\n    <div class=\"image_wrapper desktop\">\n      <div class=\"thumbnail__sd___10Fuz thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/6jaEVZAa9khNMwX3MzsjtC/ef9ece701916c1040051427e710fa1c1/cheddaru_contact1.webp\"></div>\n    </div>\n    <div class=\"image_wrapper mobile\">\n<div class=\"thumbnail__film___2hDkW thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/2STrQPRj6COLrnEXoCCBt8/7470819d4d42ae7e16ad6cfa5a253b0e/cheddaru_contact1_cropped.webp\"></div>    </div>\n    <div class=\"content_wrapper\">\n      <h1>\n        Want to watch CheddarU at your Campus? Email us and tell us where\n        you're writing from.\n      </h1>\n      <h3>\n        &#x1F9C0; FeedmeCheddarU@cheddar.com &#x1F9C0;\n      </h3>\n      <a href=\"mailto:FeedmeCheddarU@cheddar.com\">Email Us</a>\n    </div>\n  </div>\n</column>\n\n<!--\n<column>\n  <div class=\"cta correspondant\">\n    <div class=\"content_wrapper\">\n      <h1>\n        Interested in becoming a CheddarU Campus Correspondent?\n      </h1>\n      <h3>\n        &#x1F9C0; CheddarUCorrespondent@cheddar.com &#x1F9C0;\n      </h3>\n      <a href=\"mailto:CheddarUCorrespondent@cheddar.com\">Email Us</a>\n    </div>\n    <div class=\"image_wrapper desktop\">\n      <div class=\"thumbnail__sd___10Fuz thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/6VAvhNWCiCffXQdJMfGOfV/8a48ca5630526c546ba89696216d3141/cheddaru_contact2.webp\"></div>\n    </div>\n    <div class=\"image_wrapper mobile\">\n<div class=\"thumbnail__film___2hDkW thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/1Rbr5kW8bdZpoKrpKZh97e/12c0faa7fb4329e461ea5b26da84c04b/cheddaru_contact2_cropped.webp\"></div>    </div>\n  </div>\n</column>\n-->\n\n<column>\n  <div class=\"cta advertise\">\n    <div class=\"image_wrapper desktop\">\n            <div class=\"thumbnail__sd___10Fuz thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/6VAvhNWCiCffXQdJMfGOfV/8a48ca5630526c546ba89696216d3141/cheddaru_contact2.webp\"></div>\n    </div>\n    <div class=\"image_wrapper mobile\">\n      <div class=\"thumbnail__film___2hDkW thumbnail__wrapper___3OwYi thumbnail__loaded___27RoR\"><img alt=\"\" src=\"https://images.ctfassets.net/vcjvsnaeixme/1Rbr5kW8bdZpoKrpKZh97e/12c0faa7fb4329e461ea5b26da84c04b/cheddaru_contact2_cropped.webp\"></div>\n    </div>\n    <div class=\"content_wrapper\">\n      <h1>\n        Interested in advertising on CheddarU?\n      </h1>\n      <internallink href=\"/advertise\">Get More Info</internallink>\n    </div>\n  </div>\n</column>"
+          }
+        }
+      },
+      "content": []
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "embedded asset ", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "embedded-asset-block",
+      "data": {
+        "target": {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": { "sys": { "type": "Link", "linkType": "Space", "id": "vcjvsnaeixme" } },
+            "id": "6B407cO9IdD54lOhnyJt71",
+            "type": "Asset",
+            "createdAt": "2023-01-20T12:11:34.443Z",
+            "updatedAt": "2023-01-20T19:47:37.171Z",
+            "environment": { "sys": { "id": "staging", "type": "Link", "linkType": "Environment" } },
+            "revision": 2,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "AP23020430909491",
+            "description": "The logo of Google is displayed on a carpet at the entrance hall of Google France in Paris, on Nov. 18, 2019. Google said Friday, jan. 20, 2023, it’s laying off 12,000 workers, becoming the latest tech company to trim staff after rapid expansions during the COVID-19 pandemic have worn off. (AP Photo/Michel Euler, File)",
+            "file": {
+              "url": "//images.ctfassets.net/vcjvsnaeixme/6B407cO9IdD54lOhnyJt71/8d8a18147a01b27b9201e38c7b731d34/AP23020430909491.jpg",
+              "details": { "size": 652607, "image": { "width": 1920, "height": 1153 } },
+              "fileName": "AP23020430909491.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "content": []
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "This is a PDF", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "embedded-asset-block",
+      "data": {
+        "target": {
+          "metadata": { "tags": [] },
+          "sys": {
+            "space": { "sys": { "type": "Link", "linkType": "Space", "id": "vcjvsnaeixme" } },
+            "id": "62QoY5nlUxEBpTenB9ZB2T",
+            "type": "Asset",
+            "createdAt": "2023-02-06T16:37:48.229Z",
+            "updatedAt": "2023-02-06T16:37:48.229Z",
+            "environment": { "sys": { "id": "staging", "type": "Link", "linkType": "Environment" } },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "moby dick",
+            "file": {
+              "url": "//assets.ctfassets.net/vcjvsnaeixme/62QoY5nlUxEBpTenB9ZB2T/37190a658d380416dbffffa6363b17f3/moby_dick.pdf",
+              "details": { "size": 2117892 },
+              "fileName": "moby_dick.pdf",
+              "contentType": "application/pdf"
+            }
+          }
+        }
+      },
+      "content": []
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        { "nodeType": "text", "value": "Social: (embeds) ", "marks": [ { "type": "bold" } ], "data": {} },
+        {
+          "nodeType": "text",
+          "value": "\nTwitter\nFB (Especially Live Videos)\nInstagram\nTikTok (Just in case...futureproofing)\nYouTube",
+          "marks": [],
+          "data": {}
+        }
+      ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [
+        { "nodeType": "text", "value": "Other:", "marks": [ { "type": "bold" } ], "data": {} },
+        {
+          "nodeType": "text",
+          "value": "\n-AP Embeds\n-Native PDFs\n-Photo Galleries \n-Citizen\n-Minute video\n-Flourish (Working on contract)\n-Sound apps like SoundCloud",
+          "marks": [],
+          "data": {}
+        }
+      ]
+    }
+  ]
+}
