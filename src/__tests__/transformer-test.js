@@ -6,21 +6,29 @@ import parse from '../transformer'
 
 describe('Transformer', () => {
   describe('when parsing contentfulRteData', () => {
-    fit('should parse it correctly', () => {
+    it('should match expected story html', () => {
+      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/contentful/story.html', 'utf8')
       const parsedString = parse(contentfulRteData)
-      console.log(formatString(parsedString))
-      expect(1).toEqual('test')
+      expect(parsedString).toEqual(expectedHtml)
+    })
+
+    describe('when parsing an amp page', () => {
+      it('should match expected amp story html', () => {
+        const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/contentful/ampStory.html', 'utf8')
+        const parsedString = parse(contentfulRteData, true)
+        expect(parsedString).toEqual(expectedHtml)
+      })
     })
   })
   it('should parse blocks correctly', () => {
-    const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/article.html', 'utf8')
+    const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/editorjs/story.html', 'utf8')
     const parsedString = parse(editorJsData)
     expect(formatString(parsedString)).toEqual(formatString(expectedHtml))
   })
 
   describe('when AMP parameter is true', () => {
     it('should parse blocks correctly', () => {
-      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/ampArticle.html', 'utf8')
+      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/editorjs/ampStory.html', 'utf8')
       const parsedString = parse(editorJsData, true)
       expect(formatString(parsedString)).toEqual(formatString(expectedHtml))
     })

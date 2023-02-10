@@ -1,4 +1,17 @@
-export default function (shortCode) {
+/**
+ * Wordpress shortcode parser details | Javascript to pull attributes from shortcode string
+ * https://gist.github.com/jeffdrumgod/db908ac2e4623a3f586f60a119c9b772
+ *
+ * Thanks  that answered the question: https://stackoverflow.com/questions/37576843/javascript-to-pull-attributes-from-shortcode-string/37577770#37577770
+ *
+ * @author Daniel Gimenez
+ * @contributors
+ * 	 - Jefferson Rafael Kozerski <jeff.drumgod@gmail.com>
+ *
+ * @param  {String} shortCode Text for strip attributes, example: [name]teste[/name] or [name prop="value"] or [name prop=value]
+ * @return {Object}           Object with parsed info
+ */
+function parseShortCode(shortCode) {
 	var re = /(\s+|\W)|(\w+)/g;
 	var match;
 	var token;
@@ -106,3 +119,5 @@ export default function (shortCode) {
 	}
 	return parsedValue;
 }
+
+export default parseShortCode

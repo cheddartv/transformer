@@ -1,5 +1,5 @@
-import shortcodeParser from '../../util/shortcode-parser'
-import { facebook, form, gallery, spotim, tagboard, twitter, youtube } from '.'
+import shortcodeParser from '../../../util/shortcode-parser'
+import { facebook, form, gallery, tagboard, twitter, youtube } from '.'
 
 export default (node) => {
   const shortcode = shortcodeParser(node.content[0].value)
@@ -7,8 +7,6 @@ export default (node) => {
   switch (shortcode.name) {
     case 'facebook':
       return facebook(shortcode)
-    case 'spotim':
-      return spotim(shortcode)
     case 'tagboard':
       return tagboard(shortcode)
     case 'twitter':

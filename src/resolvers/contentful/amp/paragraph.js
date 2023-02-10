@@ -1,6 +1,6 @@
-import config from '../../config'
+import config from '../../../config'
 import shortcodeResolver from './shortcode.js'
-import { isShortCode } from './common'
+import { isShortCode } from '../common'
 
 export default (node, next) => {
   if (isShortCode(node)) {

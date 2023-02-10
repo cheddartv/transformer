@@ -1,18 +1,15 @@
-import { asset, embed, listItem, list, paragraph, quote, tableCell, tableHeaderCell } from '../../resolvers/contentful'
+import { options as sharedOptions } from './parser'
+import { asset, embed, paragraph } from '../../resolvers/contentful/amp/index'
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
 import { BLOCKS } from '@contentful/rich-text-types'
 
-export const options = {
+const options = {
   renderNode: {
+    ...sharedOptions.renderNode,
     [BLOCKS.EMBEDDED_ASSET]: asset,
     [BLOCKS.EMBEDDED_ENTRY]: embed,
-    [BLOCKS.LIST_ITEM]: listItem,
-    [BLOCKS.OL_LIST]: list,
     [BLOCKS.PARAGRAPH]: paragraph,
-    [BLOCKS.QUOTE]: quote,
-    [BLOCKS.TABLE_CELL]: tableCell,
-    [BLOCKS.TABLE_HEADER_CELL]: tableHeaderCell,
-    [BLOCKS.UL_LIST]: list
+    [BLOCKS.TABLE]: (node, next) => '',
   }
 }
 

@@ -35,6 +35,11 @@
     {
       "nodeType": "paragraph",
       "data": {},
+      "content": [ { "nodeType": "text", "value": "[tagboard]5365[/tagboard]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
       "content": [ { "nodeType": "text", "value": "code test", "marks": [ { "type": "code" } ], "data": {} } ]
     },
     {

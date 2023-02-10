@@ -17,6 +17,7 @@
     "@contentful/rich-text-html-renderer": "^16.0.2",
     "@contentful/rich-text-types": "^16.0.2",
     "jest": "^27.5.1",
+    "js-beautify": "^1.14.7",
     "prettier": "latest"
   },
   "devDependencies": {
