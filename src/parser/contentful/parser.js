@@ -21,4 +21,3 @@ function parser(data) {
 }
 
 export default parser
-

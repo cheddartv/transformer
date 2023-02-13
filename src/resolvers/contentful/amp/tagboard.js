@@ -1,5 +1,5 @@
 export default (node) =>
-`<amp-iframe layout="responsive"
+  `<amp-iframe layout="responsive"
     width="100"
     height="100"
     src="https://longisland.news12.curds.io/poll?id=${node.content}"

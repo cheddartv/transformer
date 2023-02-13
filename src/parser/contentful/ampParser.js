@@ -9,7 +9,7 @@ const options = {
     [BLOCKS.EMBEDDED_ASSET]: asset,
     [BLOCKS.EMBEDDED_ENTRY]: embed,
     [BLOCKS.PARAGRAPH]: paragraph,
-    [BLOCKS.TABLE]: (node, next) => '',
+    [BLOCKS.TABLE]: (node, next) => ''
   }
 }
 
@@ -18,4 +18,3 @@ function parser(data) {
 }
 
 export default parser
-

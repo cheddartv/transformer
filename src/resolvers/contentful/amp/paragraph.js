@@ -6,6 +6,6 @@ export default (node, next) => {
   if (isShortCode(node)) {
     return shortcodeResolver(node)
   } else {
-    return `<div class=\"${config.paragraph.class}\">${next(node.content)}</div>`
+    return `<div class="${config.paragraph.class}">${next(node.content)}</div>`
   }
 }

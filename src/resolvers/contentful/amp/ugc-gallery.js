@@ -1,7 +1,7 @@
 import config from '../../../config'
 
 export default (node) =>
- `<amp-iframe
+  `<amp-iframe
     layout="responsive"
     width="100"
     height="100"

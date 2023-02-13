@@ -7,7 +7,7 @@ export default {
   },
   image: {},
   paragraph: {
-    class: 'block',
+    class: 'block'
   },
   quote: {
     class: 'left'
