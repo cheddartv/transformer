@@ -1,7 +1,13 @@
 export default {
+  asset: {
+    class: 'asset'
+  },
+  list: {
+    class: 'list'
+  },
   image: {},
   paragraph: {
-    class: 'block',
+    class: 'block'
   },
   quote: {
     class: 'left'
@@ -16,6 +22,12 @@ export default {
     },
     form: {
       class: 'form-embed'
+    },
+    facebook: {
+      class: 'facebook-embed'
+    },
+    youtube: {
+      class: 'youtube-embed'
     }
   },
   video: {

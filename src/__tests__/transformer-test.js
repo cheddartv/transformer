@@ -1,21 +1,35 @@
 import fs from 'fs'
-
-import blocks from '../mocks/article.json'
+import contentfulRteData from '../mocks/contentful-rte.json'
+import editorJsData from '../mocks/editor-js.json'
 import formatString from '../util/formatString'
-
 import parse from '../transformer'
 
 describe('Transformer', () => {
+  describe('when parsing contentfulRteData', () => {
+    it('should match expected story html', () => {
+      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/contentful/story.html', 'utf8')
+      const parsedString = parse(contentfulRteData)
+      expect(parsedString).toEqual(expectedHtml)
+    })
+
+    describe('when parsing an amp page', () => {
+      it('should match expected amp story html', () => {
+        const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/contentful/ampStory.html', 'utf8')
+        const parsedString = parse(contentfulRteData, true)
+        expect(parsedString).toEqual(expectedHtml)
+      })
+    })
+  })
   it('should parse blocks correctly', () => {
-    const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/article.html', 'utf8')
-    const parsedString = parse(blocks)
+    const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/editorjs/story.html', 'utf8')
+    const parsedString = parse(editorJsData)
     expect(formatString(parsedString)).toEqual(formatString(expectedHtml))
   })
 
   describe('when AMP parameter is true', () => {
     it('should parse blocks correctly', () => {
-      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/ampArticle.html', 'utf8')
-      const parsedString = parse(blocks, true)
+      const expectedHtml = fs.readFileSync(__dirname + '/../mocks/html/editorjs/ampStory.html', 'utf8')
+      const parsedString = parse(editorJsData, true)
       expect(formatString(parsedString)).toEqual(formatString(expectedHtml))
     })
   })
