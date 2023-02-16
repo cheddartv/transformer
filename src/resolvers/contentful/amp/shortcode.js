@@ -1,14 +1,42 @@
 import shortcodeParser from '../../../util/shortcode-parser'
-import { facebook, form, gallery, tagboard, twitter, youtube } from '.'
+import {
+  associatedPress,
+  facebook,
+  form,
+  gallery,
+  googleMaps,
+  instagram,
+  soundcloud,
+  spotify,
+  tagboard,
+  tiktok,
+  twitter,
+  youtube,
+  vimeo
+} from '.'
 
 export default (node) => {
   const shortcode = shortcodeParser(node.content[0].value)
 
   switch (shortcode.name) {
+    case 'associated-press':
+      return associatedPress(shortcode)
     case 'facebook':
       return facebook(shortcode)
+    case 'google-maps':
+      return googleMaps(shortcode)
+    case 'instagram':
+      return instagram(shortcode)
+    case 'soundcloud':
+      return soundcloud(shortcode)
+    case 'spotim':
+      return ''
+    case 'spotify':
+      return spotify(shortcode)
     case 'tagboard':
       return tagboard(shortcode)
+    case 'tiktok':
+      return tiktok(shortcode)
     case 'twitter':
       return twitter(shortcode)
     case 'ugc-form':
@@ -17,6 +45,8 @@ export default (node) => {
       return gallery(shortcode)
     case 'youtube':
       return youtube(shortcode)
+    case 'vimeo':
+      return vimeo(shortcode)
     default:
       return ''
   }
