@@ -8,6 +8,10 @@ function type(url) {
 }
 
 export default (node) =>
-  `<amp-facebook width="${node.attributes.width || 552}" height="${
-    node.attributes.height || 310
-  }" layout="responsive" data-embed-as="${type(node.content)}" data-href="${node.content}"></amp-facebook>`
+  `<amp-facebook
+    width="${node.attributes.width || 552}"
+    height="${node.attributes.height || 310}"
+    layout="responsive"
+    data-embed-as="${type(node.content)}"
+    data-href="${node.content}">
+  </amp-facebook>`

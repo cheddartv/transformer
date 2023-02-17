@@ -17,6 +17,9 @@ export default {
   },
   embed: {
     class: 'embed',
+    'associated-press': {
+      class: 'associated-press-embed'
+    },
     carousel: {
       class: 'carousel-embed'
     },
@@ -25,6 +28,33 @@ export default {
     },
     facebook: {
       class: 'facebook-embed'
+    },
+    'google-maps': {
+      class: 'google-maps-embed'
+    },
+    instagram: {
+      class: 'instagram-embed'
+    },
+    soundcloud: {
+      class: 'soundcloud-embed'
+    },
+    spotim: {
+      class: 'spotim-embed'
+    },
+    spotify: {
+      class: 'spotify-embed'
+    },
+    tagboard: {
+      class: 'tagboard-embed'
+    },
+    tiktok: {
+      class: 'tiktok-embed'
+    },
+    twitter: {
+      class: 'twitter-embed'
+    },
+    vimeo: {
+      class: 'vimeo-embed'
     },
     youtube: {
       class: 'youtube-embed'
