@@ -2,7 +2,7 @@ export default (node) =>`
   <amp-iframe
     layout="responsive"
     width="300"
-    height="100"
+    height="300"
     sandbox="allow-scripts allow-same-origin"
     src="${node.content}">
     <amp-img placeholder
