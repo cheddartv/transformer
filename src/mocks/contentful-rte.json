@@ -15,7 +15,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[youtube width=560 height=315]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]", "marks": [], "data": {} } ]
+      "content": [ { "nodeType": "text", "value": "[youtube]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]", "marks": [], "data": {} } ]
     },
     {
       "nodeType": "paragraph",
@@ -65,7 +65,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[vimeo width=400 height=300]https://vimeo.com/165729368[/vimeo]", "marks": [], "data": {} } ]
+      "content": [ { "nodeType": "text", "value": "[vimeo]https://vimeo.com/165729368[/vimeo]", "marks": [], "data": {} } ]
     },
     {
       "nodeType": "paragraph",

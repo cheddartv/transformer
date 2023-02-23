@@ -50,8 +50,8 @@ Transformer will be able to parse Contentful's RTE data format into valid HTML s
 | UGC form | shortcode| `[ugc-form]ID[/ugc-form]`| `[ugc-form]5365[/ugc-form]` |
 | UGC gallery| shortcode| `[ugc-gallery]ID[/ugc-gallery]`| `[ugc-gallery]5365[/ugc-gallery]` |
 | VideoFile| editor embed icon - select entry || |
-| Vimeo| shortcode| `[vimeo width=WIDTH height=HEIGHT]LINK[/vimeo]`| `[vimeo width=400 height=300]https://vimeo.com/165729368[/vimeo]` |
-| Youtube| shortcode| `[youtube width=WIDTH height=HEIGHT]LINK[/youtube]`|`[youtube width=560 height=315]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]`|
+| Vimeo| shortcode| `[vimeo]LINK[/vimeo]`| `[vimeo]https://vimeo.com/165729368[/vimeo]` |
+| Youtube| shortcode| `[youtube]LINK[/youtube]`|`[youtube]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]`|
 
 ## EditorJS Data
 
