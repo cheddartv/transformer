@@ -5,8 +5,7 @@ export default (node) => {
   if (extractTikTokVideoId(node.content)) {
     return  `
       <div class="${config.embed.class} ${config.embed.tiktok.class}">
-        <blockquote class="tiktok-embed" cite="${node.content}" data-video-id="${extractTikTokVideoId(node.content)}" style="max-width: 605px;min-width: 325px;" > </blockquote>
-        <script async src="https://www.tiktok.com/embed.js"></script>
+        <iframe src="https://www.tiktok.com/embed/${extractTikTokVideoId(node.content)}" allowfullscreenscrolling="no" allow="encrypted-media;" style="border:none;width:100%;" height="740"></iframe>
       </div>`
   } else {
     return ''
