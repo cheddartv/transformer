@@ -17,7 +17,7 @@ function type(url) {
 }
 
 var _default = function _default(node) {
-  return "<amp-facebook\n    width=\"".concat(node.attributes.width || 552, "\"\n    height=\"").concat(node.attributes.height || 310, "\"\n    layout=\"responsive\"\n    data-embed-as=\"").concat(type(node.content), "\"\n    data-href=\"").concat(node.content, "\">\n  </amp-facebook>");
+  return "<amp-facebook\n    width=\"300\"\n    height=\"400\"\n    layout=\"responsive\"\n    data-embed-as=\"".concat(type(node.content), "\"\n    data-href=\"").concat(node.content, "\">\n  </amp-facebook>");
 };
 
 exports["default"] = _default;

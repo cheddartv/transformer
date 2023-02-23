@@ -4,9 +4,9 @@ import { extractYoutubeVideoId } from './common'
 export default (node) =>
   `<div class="${config.embed.class} ${config.embed.youtube.class}">
     <iframe
-      width="${node.attributes.width || 560}"
-      height="${node.attributes.height || 315}"
+      height="400"
       src="https://www.youtube.com/embed/${extractYoutubeVideoId(node.content)}"
+      style="width:100%;"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

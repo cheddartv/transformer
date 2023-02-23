@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var _default = function _default(node) {
   if ((0, _common.extractTikTokVideoId)(node.content)) {
-    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.tiktok["class"], "\">\n        <blockquote class=\"tiktok-embed\" cite=\"").concat(node.content, "\" data-video-id=\"").concat((0, _common.extractTikTokVideoId)(node.content), "\" style=\"max-width: 605px;min-width: 325px;\" > </blockquote>\n        <script async src=\"https://www.tiktok.com/embed.js\"></script>\n      </div>");
+    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.tiktok["class"], "\">\n        <iframe src=\"https://www.tiktok.com/embed/").concat((0, _common.extractTikTokVideoId)(node.content), "\" allowfullscreenscrolling=\"no\" allow=\"encrypted-media;\" style=\"border:none;width:100%;\" height=\"740\"></iframe>\n      </div>");
   } else {
     return '';
   }

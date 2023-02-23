@@ -13,9 +13,7 @@ var _default = function _default(node) {
   var src = node.content.match(/<iframe.*?\bsrc="(.*?)".*?>/i);
 
   if (src) {
-    var height = node.content.match(/<iframe.*?\bheight="(.*?)".*?>/i) ? node.content.match(/<iframe.*?\bheight="(.*?)".*?>/i)[1] : '450';
-    var width = node.content.match(/<iframe.*?\bwidth="(.*?)".*?>/i) ? node.content.match(/<iframe.*?\bwidth="(.*?)".*?>/i)[1] : '600';
-    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed['google-maps']["class"], "\">\n        <iframe\n          src=\"").concat(src[1], "\"\n          width=\"").concat(width, "\"\n          height=\"").concat(height, "\"\n          style=\"border:0;\"\n          allowfullscreen=\"\"\n          loading=\"lazy\"\n          referrerpolicy=\"no-referrer-when-downgrade\">\n        </iframe>\n      </div>");
+    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed['google-maps']["class"], "\">\n        <iframe\n          src=\"").concat(src[1], "\"\n          height=\"400\"\n          style=\"border:0;width:100%;\"\n          allowfullscreen=\"\"\n          loading=\"lazy\"\n          referrerpolicy=\"no-referrer-when-downgrade\">\n        </iframe>\n      </div>");
   } else {
     return '';
   }

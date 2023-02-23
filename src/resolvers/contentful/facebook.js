@@ -3,11 +3,10 @@ import config from '../../config'
 export default (node) =>
   `<div class="${config.embed.class} ${config.embed.facebook.class}">
     <iframe
-      src="https://www.facebook.com/plugins/post.php?href=${node.content}"
-      width="${node.attributes.width || 500}"
-      height="${node.attributes.height || 400}"
-      style="border:none;overflow:hidden"
-      scrolling="no"
+      src="https://www.facebook.com/plugins/post.php?href=${encodeURI(node.content)}&width=auto"
+      height="500"
+      style="border:none;overflow:visible;width:100%"
+      scrolling="yes"
       frameborder="0"
       allowfullscreen="true"
       allow="autoplay;
