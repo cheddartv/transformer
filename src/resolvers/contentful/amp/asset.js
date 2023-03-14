@@ -1,7 +1,7 @@
 import { image, pdf } from '.'
 
 export default (node, next) => {
-  const type = node.data.target.fields.file.contentType
+  const type = node?.data?.target?.fields?.file?.contentType
 
   switch (type) {
     case 'image/jpeg':

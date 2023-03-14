@@ -25,8 +25,8 @@ var extractInstagramPath = function extractInstagramPath(url) {
 exports.extractInstagramPath = extractInstagramPath;
 
 var _default = function _default(node) {
-  if (extractInstagramPath(node.content)) {
-    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.instagram["class"], "\">\n        <iframe width=\"100%\" height=\"400\" src=\"https://www.instagram.com/").concat(extractInstagramPath(node.content), "/embed\" frameborder=\"0\"></iframe>\n      </div>");
+  if (extractInstagramPath(node === null || node === void 0 ? void 0 : node.content)) {
+    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.instagram["class"], "\">\n        <iframe width=\"100%\" height=\"400\" src=\"https://www.instagram.com/").concat(extractInstagramPath(node === null || node === void 0 ? void 0 : node.content), "/embed\" frameborder=\"0\"></iframe>\n      </div>");
   } else {
     return '';
   }

@@ -1,12 +1,12 @@
 export const removeParagraphNode = node => {
   return {
     ...node,
-    content: [...node.content[0].content]
+    content: [...node?.content?.[0]?.content]
   }
 }
 
 export const isShortCode = node => {
-  if (node.content[0].nodeType === 'text' && node.content[0].value.trim().startsWith('[') && node.content[0].value.trim().endsWith(']')) {
+  if (node?.content?.[0]?.nodeType === 'text' && node?.content?.[0]?.value?.trim().startsWith('[') && node?.content?.[0]?.value?.trim().endsWith(']')) {
     return true
   } else {
     return false

@@ -12,7 +12,9 @@ var _ = require(".");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var _default = function _default(node) {
-  var shortcode = (0, _shortcodeParser["default"])(node.content[0].value);
+  var _node$content, _node$content$;
+
+  var shortcode = (0, _shortcodeParser["default"])(node === null || node === void 0 ? void 0 : (_node$content = node.content) === null || _node$content === void 0 ? void 0 : (_node$content$ = _node$content[0]) === null || _node$content$ === void 0 ? void 0 : _node$content$.value);
 
   switch (shortcode.name) {
     case 'associated-press':

@@ -17,7 +17,7 @@ var _default = function _default(node, next) {
   if ((0, _common.isShortCode)(node)) {
     return (0, _shortcode["default"])(node);
   } else {
-    return "<div class=\"".concat(_config["default"].paragraph["class"], "\">").concat(next(node.content), "</div>");
+    return "<div class=\"".concat(_config["default"].paragraph["class"], "\">").concat(next(node === null || node === void 0 ? void 0 : node.content), "</div>");
   }
 };
 

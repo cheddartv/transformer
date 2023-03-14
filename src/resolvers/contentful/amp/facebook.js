@@ -12,6 +12,6 @@ export default (node) =>
     width="300"
     height="400"
     layout="responsive"
-    data-embed-as="${type(node.content)}"
-    data-href="${node.content}">
+    data-embed-as="${type(node?.content)}"
+    data-href="${node?.content}">
   </amp-facebook>`
