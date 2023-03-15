@@ -381,6 +381,48 @@
               "video/vga": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196_854x480.mp4",
               "application/x-mpegURL": "https://vod.chdrstatic.com/transcode/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196/a3a7dbd1-8d9c-4a44-a54c-424d92e6b196.m3u8"
             },
+            "thumbnail": {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3kqcuzntcg31"
+                  }
+                },
+                "id": "2nnx5tf34K0fF7xasw7Gog",
+                "type": "Asset",
+                "createdAt": "2023-01-27T11:43:56.230Z",
+                "updatedAt": "2023-01-27T11:43:56.230Z",
+                "environment": {
+                  "sys": {
+                    "id": "staging",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "JerseyBuzzFri012723NJLE_2023-01-27-06-43-34",
+                "file": {
+                  "url": "//images.ctfassets.net/3kqcuzntcg31/2nnx5tf34K0fF7xasw7Gog/709d67ea44a436b60465036cc1207246/47a7041e-41d9-4db3-9010-947d389becb1.jpg",
+                  "details": {
+                    "size": 206198,
+                    "image": {
+                      "width": 1920,
+                      "height": 1080
+                    }
+                  },
+                  "fileName": "47a7041e-41d9-4db3-9010-947d389becb1.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            },
             "duration": 1402,
             "height": 1080,
             "width": 1920,

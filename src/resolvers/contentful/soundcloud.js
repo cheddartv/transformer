@@ -8,6 +8,6 @@ export default (node) => `
       scrolling="no"
       frameborder="no"
       allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=${node.content}">
+      src="https://w.soundcloud.com/player/?url=${node?.content}">
     </iframe>
   </div>`

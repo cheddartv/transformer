@@ -3,6 +3,6 @@ export default node =>
     width="600"
     height="338"
     layout="responsive"
-    src="https:${node.data.target.fields.file.url}"
+    src="https:${node?.data?.target?.fields?.file?.url}"
     alt=""></amp-img>
-  <em>${node.data.target.fields.description}</em>`
+  <em>${node?.data?.target?.fields?.description}</em>`

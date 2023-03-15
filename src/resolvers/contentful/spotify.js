@@ -14,7 +14,7 @@ export default node => {
         allow="autoplay"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-        src="https://open.spotify.com/embed${extractSpotifyId(node.content)}">
+        src="https://open.spotify.com/embed${extractSpotifyId(node?.content)}">
       </iframe>
     </div>`
   } else {

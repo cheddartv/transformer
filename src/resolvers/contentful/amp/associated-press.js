@@ -4,7 +4,7 @@ export default (node) =>`
     width="300"
     height="300"
     sandbox="allow-scripts allow-same-origin"
-    src="${node.content}">
+    src="${node?.content}">
     <amp-img placeholder
       src="/loading-animation.gif"
       height="64"

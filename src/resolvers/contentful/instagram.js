@@ -14,10 +14,10 @@ export const extractInstagramPath = url => {
 }
 
 export default node => {
-  if (extractInstagramPath(node.content)) {
+  if (extractInstagramPath(node?.content)) {
     return `
       <div class="${config.embed.class} ${config.embed.instagram.class}">
-        <iframe width="100%" height="400" src="https://www.instagram.com/${extractInstagramPath(node.content)}/embed" frameborder="0"></iframe>
+        <iframe width="100%" height="400" src="https://www.instagram.com/${extractInstagramPath(node?.content)}/embed" frameborder="0"></iframe>
       </div>`
   } else {
     return ''

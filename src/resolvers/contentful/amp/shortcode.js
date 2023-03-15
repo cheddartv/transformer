@@ -16,7 +16,7 @@ import {
 } from '.'
 
 export default (node) => {
-  const shortcode = shortcodeParser(node.content[0].value)
+  const shortcode = shortcodeParser(node?.content?.[0]?.value)
 
   switch (shortcode.name) {
     case 'associated-press':

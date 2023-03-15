@@ -24,15 +24,19 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var removeParagraphNode = function removeParagraphNode(node) {
+  var _node$content, _node$content$;
+
   return _objectSpread(_objectSpread({}, node), {}, {
-    content: _toConsumableArray(node.content[0].content)
+    content: _toConsumableArray(node === null || node === void 0 ? void 0 : (_node$content = node.content) === null || _node$content === void 0 ? void 0 : (_node$content$ = _node$content[0]) === null || _node$content$ === void 0 ? void 0 : _node$content$.content)
   });
 };
 
 exports.removeParagraphNode = removeParagraphNode;
 
 var isShortCode = function isShortCode(node) {
-  if (node.content[0].nodeType === 'text' && node.content[0].value.trim().startsWith('[') && node.content[0].value.trim().endsWith(']')) {
+  var _node$content2, _node$content2$, _node$content3, _node$content3$, _node$content3$$value, _node$content4, _node$content4$, _node$content4$$value;
+
+  if ((node === null || node === void 0 ? void 0 : (_node$content2 = node.content) === null || _node$content2 === void 0 ? void 0 : (_node$content2$ = _node$content2[0]) === null || _node$content2$ === void 0 ? void 0 : _node$content2$.nodeType) === 'text' && node !== null && node !== void 0 && (_node$content3 = node.content) !== null && _node$content3 !== void 0 && (_node$content3$ = _node$content3[0]) !== null && _node$content3$ !== void 0 && (_node$content3$$value = _node$content3$.value) !== null && _node$content3$$value !== void 0 && _node$content3$$value.trim().startsWith('[') && node !== null && node !== void 0 && (_node$content4 = node.content) !== null && _node$content4 !== void 0 && (_node$content4$ = _node$content4[0]) !== null && _node$content4$ !== void 0 && (_node$content4$$value = _node$content4$.value) !== null && _node$content4$$value !== void 0 && _node$content4$$value.trim().endsWith(']')) {
     return true;
   } else {
     return false;

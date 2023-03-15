@@ -1,5 +1,5 @@
 export default (node) => {
-  const src = node.content.match(/<iframe.*?\bsrc="(.*?)".*?>/i)
+  const src = node?.content?.match(/<iframe.*?\bsrc="(.*?)".*?>/i)
 
   if (src) {
     return `
