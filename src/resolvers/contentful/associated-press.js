@@ -1,11 +1,6 @@
 import config from '../../config'
 
-export default (node) => {
-
-  const iframe = node.content.match(/<iframe.*?<\/iframe>/i)[0]
-
-  return `
+export default (node) => `
   <div class="${config.embed.class} ${config.embed['associated-press'].class}">
-    ${iframe}
+    <iframe src="https://interactives.ap.org/ap-polling-presidential-approval" class="ap-embed" width="100%" height="600" style="border: 1px solid #eee;">
   </div>`
-}
