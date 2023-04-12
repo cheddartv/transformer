@@ -1,7 +1,7 @@
 import config from '../../config'
 
 export default (node) => {
-  const src = node.content.match(/<iframe.*?\bsrc="(.*?)".*?>/i)
+  const src = node.content.match(/<iframe.*?\bsrc="(.*?)".*?>/i) || 'https://interactives.ap.org/ap-polling-presidential-approval'
   const height = node.content.match(/<iframe.*?\bheight="(.*?)".*?>/i) || 400
 
   if (src) {
