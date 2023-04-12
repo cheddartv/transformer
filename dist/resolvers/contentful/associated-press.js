@@ -7,17 +7,14 @@ exports["default"] = void 0;
 
 var _config = _interopRequireDefault(require("../../config"));
 
+var _templateObject;
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = function _default(node) {
-  var src = node.content.match(/<iframe.*?\bsrc="(.*?)".*?>/i) || 'https://interactives.ap.org/ap-polling-presidential-approval';
-  var height = node.content.match(/<iframe.*?\bheight="(.*?)".*?>/i) || 400;
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-  if (src) {
-    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed['associated-press']["class"], "\">\n        <iframe\n          src=\"").concat(src, "\"\n          scrolling=\"no\"\n          width=\"100%\"\n          style=\"border:1px solid #eee\"\n          height=\"").concat(height, "\">\n        </iframe>\n      </div>");
-  } else {
-    return '';
-  }
+var _default = function _default(node) {
+  return z(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  <div class=\"", " ", "\">\n    ", "\n  </div>"])), _config["default"].embed["class"], _config["default"].embed['associated-press']["class"], node.content);
 };
 
 exports["default"] = _default;
