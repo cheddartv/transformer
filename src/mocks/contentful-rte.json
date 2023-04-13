@@ -50,7 +50,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[associated-press]https://interactives.ap.org/embeds/Itjny/6/[/associated-press]", "marks": [], "data": {} } ]
+      "content": [ { "nodeType": "text", "value": "[associated-press]<iframe src=\"https://interactives.ap.org/ap-polling-presidential-approval\" class=\"ap-embed\" width=\"100%\" height=\"600\" style=\"border: 1px solid #eee;\"></iframe>[/associated-press]", "marks": [], "data": {} } ]
     },
     {
       "nodeType": "paragraph",
