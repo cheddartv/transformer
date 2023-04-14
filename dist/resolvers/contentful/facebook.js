@@ -19,7 +19,7 @@ function postId(url) {
 function videoId(url) {
   var regex = /facebook.com\/watch\/\?v=([^/]+)/;
   var matches = url.match(regex);
-  return matches ? "https://www.facebook.com/watch/?v=".concat(matches[1]) : null;
+  return matches ? "https://www.facebook.com/facebook/videos/".concat(matches[1]) : null;
 }
 
 function urlType(url) {
@@ -49,7 +49,7 @@ var _default = function _default(node) {
   if (type === 'unknown') {
     return '';
   } else {
-    return "<div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.facebook["class"], "\" data-type=\"").concat(type, "\" data-src=\"").concat(url, "\"/>");
+    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.facebook["class"], "\">\n        <div class=\"fb-").concat(type, "\" data-href=\"").concat(url, "\">\n      </div>");
   }
 };
 

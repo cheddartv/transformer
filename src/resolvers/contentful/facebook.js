@@ -9,7 +9,7 @@ function postId(url) {
 function videoId(url) {
   const regex = /facebook.com\/watch\/\?v=([^/]+)/
   const matches = url.match(regex)
-  return matches ? `https://www.facebook.com/watch/?v=${matches[1]}` : null
+  return matches ? `https://www.facebook.com/facebook/videos/${matches[1]}` : null
 }
 
 export function urlType(url) {
@@ -28,6 +28,9 @@ export default (node) =>{
   if (type === 'unknown') {
     return ''
   } else {
-    return `<div class="${config.embed.class} ${config.embed.facebook.class}" data-type="${type}" data-src="${url}"/>`
+    return `
+      <div class="${config.embed.class} ${config.embed.facebook.class}">
+        <div class="fb-${type}" data-href="${url}">
+      </div>`
   }
 }
