@@ -5,7 +5,12 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[facebook]https://www.facebook.com/20531316728/posts/10154009990506729/[/facebook]", "marks": [], "data": {} } ]
+      "content": [ { "nodeType": "text", "value": "[facebook]https://www.facebook.com/20531316728/posts/10154009990506729[/facebook]", "marks": [], "data": {} } ]
+    },
+    {
+      "nodeType": "paragraph",
+      "data": {},
+      "content": [ { "nodeType": "text", "value": "[facebook]https://www.facebook.com/watch/?v=1192631151430117[/facebook]", "marks": [], "data": {} } ]
     },
     {
       "nodeType": "paragraph",
