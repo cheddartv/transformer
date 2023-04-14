@@ -49,7 +49,7 @@ var _default = function _default(node) {
   if (type === 'unknown') {
     return '';
   } else {
-    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.facebook["class"], "\">\n        <div class=\"fb-").concat(type, "\" data-href=\"").concat(url, "\"/>\n      </div>");
+    return "\n      <div class=\"".concat(_config["default"].embed["class"], " ").concat(_config["default"].embed.facebook["class"], "\">\n        <div class=\"fb-").concat(type, "\" data-href=\"").concat(url, "\"></div>\n      </div>");
   }
 };
 

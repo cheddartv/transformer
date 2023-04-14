@@ -30,7 +30,7 @@ export default (node) =>{
   } else {
     return `
       <div class="${config.embed.class} ${config.embed.facebook.class}">
-        <div class="fb-${type}" data-href="${url}"/>
+        <div class="fb-${type}" data-href="${url}"></div>
       </div>`
   }
 }
