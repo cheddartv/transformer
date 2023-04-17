@@ -4,7 +4,7 @@ import config from '../../config'
 export default (node) =>
   `<div class="${config.embed.class} ${config.embed.vimeo.class}">
     <iframe
-      height="400"
+      height="300"
       style="width:100%;"
       src="https://player.vimeo.com/video/${extractVimeoId(node.content)}"
       title="Vimeo video player"
