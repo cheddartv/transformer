@@ -5,19 +5,18 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-function type(url) {
-  var regex = /facebook.com\/[a-zA-Z0-9_]+\/(posts|videos)\//;
-  var match = url.match(regex);
-
-  if (match) {
-    return match[1] === 'posts' ? 'post' : 'video';
-  }
-
-  return 'post';
-}
+var _facebook = require("../facebook");
 
 var _default = function _default(node) {
-  return "<amp-facebook\n    width=\"300\"\n    height=\"400\"\n    layout=\"responsive\"\n    data-embed-as=\"".concat(type(node === null || node === void 0 ? void 0 : node.content), "\"\n    data-href=\"").concat(node === null || node === void 0 ? void 0 : node.content, "\">\n  </amp-facebook>");
+  var _urlType = (0, _facebook.urlType)(node === null || node === void 0 ? void 0 : node.content),
+      type = _urlType.type,
+      url = _urlType.url;
+
+  if (type === 'unknown') {
+    return '';
+  } else {
+    return "\n      <amp-facebook\n        width=\"300\"\n        height=\"400\"\n        layout=\"responsive\"\n        data-embed-as=\"".concat(type, "\"\n        data-href=\"").concat(url, "\">\n      </amp-facebook>");
+  }
 };
 
 exports["default"] = _default;
