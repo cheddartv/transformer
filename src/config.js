@@ -1,20 +1,4 @@
 export default {
-  asset: {
-    class: 'asset'
-  },
-  list: {
-    class: 'list'
-  },
-  image: {},
-  paragraph: {
-    class: 'block'
-  },
-  quote: {
-    class: 'left'
-  },
-  tweet: {
-    class: 'twitter-tweet'
-  },
   embed: {
     class: 'embed',
     'associated-press': {
@@ -23,11 +7,11 @@ export default {
     carousel: {
       class: 'carousel-embed'
     },
-    form: {
-      class: 'form-embed'
-    },
     facebook: {
       class: 'facebook-embed'
+    },
+    form: {
+      class: 'form-embed'
     },
     'google-maps': {
       class: 'google-maps-embed'
@@ -60,10 +44,26 @@ export default {
       class: 'youtube-embed'
     }
   },
-  video: {
-    class: 'article-body-video'
+  image: {},
+  list: {
+    class: 'list'
+  },
+  paragraph: {
+    class: 'block'
+  },
+  pdf: {
+    class: 'pdf-embed'
+  },
+  quote: {
+    class: 'left'
   },
   tagboard: {
     class: 'tagboard-embed'
-  }
+  },
+  tweet: {
+    class: 'twitter-tweet'
+  },
+  video: {
+    class: 'article-body-video'
+  },
 }
