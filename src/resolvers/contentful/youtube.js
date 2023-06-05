@@ -4,7 +4,7 @@ import { extractYoutubeVideoId } from './common'
 export default (node) =>
   `<div class="${config.embed.class} ${config.embed.youtube.class}">
     <iframe
-      height="400"
+      height="300"
       src="https://www.youtube.com/embed/${extractYoutubeVideoId(node.content)}"
       style="width:100%;"
       title="YouTube video player"

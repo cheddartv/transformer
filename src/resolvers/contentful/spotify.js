@@ -7,7 +7,7 @@ export default node => {
     <div class="${config.embed.class} ${config.embed.spotify.class}">
       <iframe
         width="100%"
-        height="200"
+        height="152"
         scrolling="no"
         frameBorder="0"
         allowfullscreen=""
