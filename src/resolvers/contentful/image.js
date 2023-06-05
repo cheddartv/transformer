@@ -1,5 +1,5 @@
 export default (node) =>
   `<div>
-    <img src="https:${node?.data?.target?.fields?.file?.url}" alt=""/>
+    <img src="https:${node?.data?.target?.fields?.file?.url}?fit=fill&w=1920&h=1080&q=85" alt=""/>
     <em>${node?.data?.target?.fields?.description || ''}</em>
   </div>`
