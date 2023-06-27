@@ -1,10 +1,9 @@
 import {video} from '.'
 import config from '../../config'
-import unescape from 'lodash.unescape'
 
 const embed = (node) => {
   if (node?.data?.target?.fields?.type === 'instagram') {
-    return `<div class="instagram-${config.embed.class}" data-embed="${unescape(node?.data?.target?.fields?.code)}"></div>`
+    return `<div class="instagram-${config.embed.class}" data-embed="${encodeURI(node?.data?.target?.fields?.code)}"></div>`
   }
   return `<div class="${config.embed.class}"><div>${node?.data?.target?.fields?.code}</div></div>`
 }

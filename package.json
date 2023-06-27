@@ -18,7 +18,6 @@
     "@contentful/rich-text-types": "^16.0.2",
     "jest": "^27.5.1",
     "js-beautify": "^1.14.7",
-    "lodash.unescape": "^4.0.1",
     "prettier": "latest"
   },
   "devDependencies": {
