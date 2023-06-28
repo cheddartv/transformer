@@ -10,7 +10,7 @@ const fixInstagramScriptSrc = (html) =>
 
 const embed = (node) =>
   node?.data?.target?.fields?.type === 'instagram'
-    ? `<div class='${config.embed.instagram}' data-embed='${encodeHTML(
+    ? `<div class='${config.embed.instagram.class}' data-embed='${encodeHTML(
         fixInstagramScriptSrc(node?.data?.target?.fields?.code)
       )}'></div>`
     : `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
