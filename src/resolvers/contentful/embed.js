@@ -8,12 +8,14 @@ const fixInstagramScriptSrc = (html) =>
     '<script async src="https://www.instagram.com/embed.js"></script>'
   )
 
-const embed = (node) =>
-  node?.data?.target?.fields?.type === 'instagram'
-    ? `<div class='${config.embed.instagram.class}' data-embed='${encodeHTML(
-        fixInstagramScriptSrc(node?.data?.target?.fields?.code)
-      )}'></div>`
-    : `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
+const embed = (node) => {
+  if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
+    return `<div class='${config.embed.instagram.class}' 
+                 data-embed='${encodeHTML(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
+  } else {
+    return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
+  }
+}
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
