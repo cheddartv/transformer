@@ -7,11 +7,9 @@ exports["default"] = void 0;
 
 var _ = require(".");
 
-var _config = _interopRequireDefault(require("../../config"));
-
-var _encodeHTML = _interopRequireDefault(require("../../util/encodeHTML"));
-
 var _he = require("he");
+
+var _config = _interopRequireDefault(require("../../config"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

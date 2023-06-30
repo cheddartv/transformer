@@ -1,7 +1,6 @@
 import { video } from '.'
-import config from '../../config'
-import encodeHTML from '../../util/encodeHTML'
 import { encode } from 'he'
+import config from '../../config'
 
 const fixInstagramScriptSrc = (html) =>
   html.replace(
