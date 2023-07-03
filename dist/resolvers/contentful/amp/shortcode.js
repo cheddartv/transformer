@@ -26,9 +26,6 @@ var _default = function _default(node) {
     case 'google-maps':
       return (0, _.googleMaps)(shortcode);
 
-    case 'instagram':
-      return (0, _.instagram)(shortcode);
-
     case 'soundcloud':
       return (0, _.soundcloud)(shortcode);
 
