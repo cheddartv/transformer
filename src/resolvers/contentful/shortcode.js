@@ -5,6 +5,7 @@ import {
   form,
   gallery,
   googleMaps,
+  minutely,
   soundcloud,
   spotim,
   spotify,
@@ -25,6 +26,8 @@ export default (node) => {
       return facebook(shortcode)
     case 'google-maps':
       return googleMaps(shortcode)
+    case 'minutely':
+      return minutely(shortcode)
     case 'soundcloud':
       return soundcloud(shortcode)
     case 'spotim':
