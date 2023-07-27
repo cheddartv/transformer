@@ -22,6 +22,9 @@ var _default = {
     'google-maps': {
       "class": 'google-maps-embed'
     },
+    minutely: {
+      "class": 'minutely-embed'
+    },
     instagram: {
       "class": 'instagram-embed'
     },

@@ -63,6 +63,12 @@ Object.defineProperty(exports, "listItem", {
     return _listItem["default"];
   }
 });
+Object.defineProperty(exports, "minutely", {
+  enumerable: true,
+  get: function get() {
+    return _minutely["default"];
+  }
+});
 Object.defineProperty(exports, "paragraph", {
   enumerable: true,
   get: function get() {
@@ -167,6 +173,8 @@ var _googleMaps = _interopRequireDefault(require("./google-maps"));
 var _listItem = _interopRequireDefault(require("./list-item"));
 
 var _list = _interopRequireDefault(require("./list"));
+
+var _minutely = _interopRequireDefault(require("./minutely"));
 
 var _paragraph = _interopRequireDefault(require("./paragraph"));
 
