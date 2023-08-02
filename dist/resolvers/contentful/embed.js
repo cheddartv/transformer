@@ -11,6 +11,8 @@ var _he = require("he");
 
 var _config = _interopRequireDefault(require("../../config"));
 
+var _parser = _interopRequireDefault(require("../../parser/contentful/parser"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var fixInstagramScriptSrc = function fixInstagramScriptSrc(html) {
@@ -31,10 +33,23 @@ var embed = function embed(node) {
   }
 };
 
-var _default = function _default(node) {
-  var _node$data4, _node$data4$target, _node$data4$target$sy, _node$data4$target$sy2, _node$data4$target$sy3;
+var storyList = function storyList(node) {
+  var _node$data4, _node$data4$target, _node$data4$target$fi, _node$data4$target$fi2;
 
-  var type = node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$sy = _node$data4$target.sys) === null || _node$data4$target$sy === void 0 ? void 0 : (_node$data4$target$sy2 = _node$data4$target$sy.contentType) === null || _node$data4$target$sy2 === void 0 ? void 0 : (_node$data4$target$sy3 = _node$data4$target$sy2.sys) === null || _node$data4$target$sy3 === void 0 ? void 0 : _node$data4$target$sy3.id;
+  return node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$fi = _node$data4$target.fields) === null || _node$data4$target$fi === void 0 ? void 0 : (_node$data4$target$fi2 = _node$data4$target$fi.stories) === null || _node$data4$target$fi2 === void 0 ? void 0 : _node$data4$target$fi2.map(function (node) {
+    var _node$data5, _node$data5$target, _node$data5$target$fi;
+
+    console.log({
+      node: node
+    });
+    return "<div class='storyListItem'><div>".concat(node === null || node === void 0 ? void 0 : (_node$data5 = node.data) === null || _node$data5 === void 0 ? void 0 : (_node$data5$target = _node$data5.target) === null || _node$data5$target === void 0 ? void 0 : (_node$data5$target$fi = _node$data5$target.fields) === null || _node$data5$target$fi === void 0 ? void 0 : _node$data5$target$fi.title, "</div></div>");
+  });
+};
+
+var _default = function _default(node) {
+  var _node$data6, _node$data6$target, _node$data6$target$sy, _node$data6$target$sy2, _node$data6$target$sy3;
+
+  var type = node === null || node === void 0 ? void 0 : (_node$data6 = node.data) === null || _node$data6 === void 0 ? void 0 : (_node$data6$target = _node$data6.target) === null || _node$data6$target === void 0 ? void 0 : (_node$data6$target$sy = _node$data6$target.sys) === null || _node$data6$target$sy === void 0 ? void 0 : (_node$data6$target$sy2 = _node$data6$target$sy.contentType) === null || _node$data6$target$sy2 === void 0 ? void 0 : (_node$data6$target$sy3 = _node$data6$target$sy2.sys) === null || _node$data6$target$sy3 === void 0 ? void 0 : _node$data6$target$sy3.id;
 
   switch (type) {
     case 'videoFile':
@@ -42,6 +57,9 @@ var _default = function _default(node) {
 
     case 'embed':
       return embed(node);
+
+    case 'storyList':
+      return storyList(node);
 
     default:
       return '';
