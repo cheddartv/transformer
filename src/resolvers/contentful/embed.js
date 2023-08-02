@@ -1,7 +1,6 @@
 import { video } from '.'
 import { encode } from 'he'
 import config from '../../config'
-import parser from '../../parser/contentful/parser'
 
 const fixInstagramScriptSrc = (html) =>
   html.replace(
@@ -18,13 +17,6 @@ const embed = (node) => {
   }
 }
 
-const storyList = (nodeList) => nodeList?.data?.target?.items?.map(node => {
-  console.log(node)
-  return parser(node)
-})
-
-console.log({storyList})
-
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
 
@@ -33,8 +25,6 @@ export default (node) => {
       return video(node)
     case 'embed':
       return embed(node)
-    case 'storyList':
-      return storyList(nodeList)
     default:
       return ''
   }
