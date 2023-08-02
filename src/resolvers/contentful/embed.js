@@ -17,7 +17,10 @@ const embed = (node) => {
   }
 }
 
-const story = (node) => `<div class='storyList'><div>${node?.data?.target?.fields?.title}</div></div>`
+const story = (node) =>
+  node?.data?.target?.fields?.stories?.map((el) => {
+    return `<div class='storyList'><div>${el?.data?.target?.fields?.title}</div></div>`
+  })
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
