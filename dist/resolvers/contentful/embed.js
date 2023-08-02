@@ -31,10 +31,14 @@ var embed = function embed(node) {
   }
 };
 
-var story = function story(node) {
-  var _node$data4, _node$data4$target, _node$data4$target$fi;
+var list = function list(node) {
+  var _node$data4, _node$data4$target, _node$data4$target$fi, _node$data4$target$fi2;
 
-  return "<div class='storyList'><div>".concat(node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$fi = _node$data4$target.fields) === null || _node$data4$target$fi === void 0 ? void 0 : _node$data4$target$fi.title, "</div></div>");
+  return "<div class='storyList'>".concat(node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$fi = _node$data4$target.fields) === null || _node$data4$target$fi === void 0 ? void 0 : (_node$data4$target$fi2 = _node$data4$target$fi.stories) === null || _node$data4$target$fi2 === void 0 ? void 0 : _node$data4$target$fi2.map(function (story) {
+    var _story$fields;
+
+    return "<div class='story'>".concat(story === null || story === void 0 ? void 0 : (_story$fields = story.fields) === null || _story$fields === void 0 ? void 0 : _story$fields.title, "</div>");
+  }), "</div>");
 };
 
 var _default = function _default(node) {
@@ -49,8 +53,8 @@ var _default = function _default(node) {
     case 'embed':
       return embed(node);
 
-    case 'story':
-      return story(node);
+    case 'list':
+      return list(node);
 
     default:
       return '';
