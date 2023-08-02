@@ -18,12 +18,13 @@ const embed = (node) => {
 }
 
 const list = (node) => {
-  return `<div class='storyList'></div>`
+  return `<div class='storyList'>${node?.data?.target?.fields?.stories?.map(
+    (story) => `<div class='story'>${story?.fields?.title}</div>`
+  )}</div>`
 }
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
-  console.log(type)
 
   switch (type) {
     case 'videoFile':
