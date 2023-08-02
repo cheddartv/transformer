@@ -17,7 +17,7 @@ const embed = (node) => {
   }
 }
 
-const story = (node) => {
+const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories?.map(
     (story) => `<div class='story'>${story?.fields?.title}</div>`
   )}</div>`
@@ -31,8 +31,8 @@ export default (node) => {
       return video(node)
     case 'embed':
       return embed(node)
-    case 'story':
-      return story(node)
+    case 'list':
+      return list(node)
     default:
       return ''
   }
