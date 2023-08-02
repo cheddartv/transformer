@@ -11,7 +11,7 @@ const fixInstagramScriptSrc = (html) =>
 
 const embed = (node) => {
   if (node?.data?.target?.fields?.stories) {
-    return node?.data?.target?.fields?.stories?.map((story) => `<div class='story'><${story?.fields?.title}</div>`)
+    return node?.data?.target?.fields?.stories?.map((el) => story(el))
   }
   if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
     return `<div class='${config.embed.instagram.class}' 
