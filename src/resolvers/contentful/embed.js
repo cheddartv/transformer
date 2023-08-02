@@ -18,13 +18,10 @@ const embed = (node) => {
   }
 }
 
-const storyList = (nodeList) =>
-  nodeList?.data?.target?.items?.map((node) => {
-    console.log(node)
-    return parser(node)
+const storyList = (node) =>
+  node?.data?.target?.fields?.map((node) => {
+    return `<div class='storyListItem'><div>${node?.data?.target?.fields?.title}</div></div>`
   })
-
-console.log({ storyList })
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
@@ -34,6 +31,8 @@ export default (node) => {
       return video(node)
     case 'embed':
       return embed(node)
+    case 'storyList':
+      return storyList(node)
     default:
       return ''
   }

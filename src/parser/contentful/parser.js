@@ -12,13 +12,11 @@ export const options = {
     [BLOCKS.QUOTE]: quote,
     [BLOCKS.TABLE_CELL]: tableCell,
     [BLOCKS.TABLE_HEADER_CELL]: tableHeaderCell,
-    [BLOCKS.UL_LIST]: list,
-    [BLOCKS.DOCUMENT]: document
+    [BLOCKS.UL_LIST]: list
   }
 }
 
 function parser(data) {
-  console.log(data)
   return documentToHtmlString(data, options)
 }
 
