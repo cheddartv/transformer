@@ -32,19 +32,13 @@ var embed = function embed(node) {
 };
 
 var list = function list(node) {
-  var _node$data4, _node$data4$target, _node$data4$target$fi, _node$data4$target$fi2;
-
-  return "<div class='storyList'>".concat(node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$fi = _node$data4$target.fields) === null || _node$data4$target$fi === void 0 ? void 0 : (_node$data4$target$fi2 = _node$data4$target$fi.stories) === null || _node$data4$target$fi2 === void 0 ? void 0 : _node$data4$target$fi2.map(function (story) {
-    var _story$fields;
-
-    return "<div class='story'>".concat(story === null || story === void 0 ? void 0 : (_story$fields = story.fields) === null || _story$fields === void 0 ? void 0 : _story$fields.title, "</div>");
-  }), "</div>");
+  return "<div class='storyList'></div>";
 };
 
 var _default = function _default(node) {
-  var _node$data5, _node$data5$target, _node$data5$target$sy, _node$data5$target$sy2, _node$data5$target$sy3;
+  var _node$data4, _node$data4$target, _node$data4$target$sy, _node$data4$target$sy2, _node$data4$target$sy3;
 
-  var type = node === null || node === void 0 ? void 0 : (_node$data5 = node.data) === null || _node$data5 === void 0 ? void 0 : (_node$data5$target = _node$data5.target) === null || _node$data5$target === void 0 ? void 0 : (_node$data5$target$sy = _node$data5$target.sys) === null || _node$data5$target$sy === void 0 ? void 0 : (_node$data5$target$sy2 = _node$data5$target$sy.contentType) === null || _node$data5$target$sy2 === void 0 ? void 0 : (_node$data5$target$sy3 = _node$data5$target$sy2.sys) === null || _node$data5$target$sy3 === void 0 ? void 0 : _node$data5$target$sy3.id;
+  var type = node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$sy = _node$data4$target.sys) === null || _node$data4$target$sy === void 0 ? void 0 : (_node$data4$target$sy2 = _node$data4$target$sy.contentType) === null || _node$data4$target$sy2 === void 0 ? void 0 : (_node$data4$target$sy3 = _node$data4$target$sy2.sys) === null || _node$data4$target$sy3 === void 0 ? void 0 : _node$data4$target$sy3.id;
 
   switch (type) {
     case 'videoFile':
