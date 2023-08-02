@@ -23,6 +23,7 @@ const list = (node) => {
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
+  console.log(type)
 
   switch (type) {
     case 'videoFile':
