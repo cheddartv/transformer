@@ -1,6 +1,7 @@
 import { video } from '.'
 import { encode } from 'he'
 import config from '../../config'
+import parser from '../../parser'
 
 const fixInstagramScriptSrc = (html) =>
   html.replace(
@@ -9,6 +10,9 @@ const fixInstagramScriptSrc = (html) =>
   )
 
 const embed = (node) => {
+  if (node?.data?.target?.fields?.stories) {
+    return node?.data?.target?.fields?.stories?.map((story) => `<div class='story'><${story?.fields?.title}</div>`)
+  }
   if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
     return `<div class='${config.embed.instagram.class}' 
                  data-embed='${encode(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
