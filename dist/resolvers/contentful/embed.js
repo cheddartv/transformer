@@ -11,8 +11,6 @@ var _he = require("he");
 
 var _config = _interopRequireDefault(require("../../config"));
 
-var _parser = _interopRequireDefault(require("../../parser/contentful/parser"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var fixInstagramScriptSrc = function fixInstagramScriptSrc(html) {
@@ -33,19 +31,6 @@ var embed = function embed(node) {
   }
 };
 
-var storyList = function storyList(nodeList) {
-  var _nodeList$data, _nodeList$data$target, _nodeList$data$target2;
-
-  return nodeList === null || nodeList === void 0 ? void 0 : (_nodeList$data = nodeList.data) === null || _nodeList$data === void 0 ? void 0 : (_nodeList$data$target = _nodeList$data.target) === null || _nodeList$data$target === void 0 ? void 0 : (_nodeList$data$target2 = _nodeList$data$target.items) === null || _nodeList$data$target2 === void 0 ? void 0 : _nodeList$data$target2.map(function (node) {
-    console.log(node);
-    return (0, _parser["default"])(node);
-  });
-};
-
-console.log({
-  storyList: storyList
-});
-
 var _default = function _default(node) {
   var _node$data4, _node$data4$target, _node$data4$target$sy, _node$data4$target$sy2, _node$data4$target$sy3;
 
@@ -57,9 +42,6 @@ var _default = function _default(node) {
 
     case 'embed':
       return embed(node);
-
-    case 'storyList':
-      return storyList(nodeList);
 
     default:
       return '';

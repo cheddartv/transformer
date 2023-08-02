@@ -18,6 +18,7 @@ export const options = {
 }
 
 function parser(data) {
+  console.log(data)
   return documentToHtmlString(data, options)
 }
 
