@@ -19,7 +19,7 @@ const embed = (node) => {
 
 const story = (node) =>
   node?.data?.target?.fields?.stories?.map((story) => {
-    return `<div class='storyList'><div>${story?.fields?.title}</div></div>`
+    return `<div class='story'><${story?.fields?.title}</div>`
   })
 
 export default (node) => {
