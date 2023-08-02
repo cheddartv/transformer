@@ -12,18 +12,16 @@ const embed = (node) => {
   if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
     return `<div class='${config.embed.instagram.class}' 
                  data-embed='${encode(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
-  }
-  if (node?.data?.target?.fields?.stories?.length) {
-    return node?.data?.target?.fields?.stories?.map((story) => `<div class='story'>${story?.fields?.title}</div>`)
   } else {
     return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
   }
 }
 
-const story = (node) =>
-  node?.data?.target?.fields?.stories?.map((story) => {
-    return `<div class='story'><${story?.fields?.title}</div>`
-  })
+const story = (node) => {
+  return `<div class='storyList'>${node?.data?.target?.fields?.stories?.map(
+    (story) => `<div class='story'>${story?.fields?.title}</div>`
+  )}</div>`
+}
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
