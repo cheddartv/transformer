@@ -18,7 +18,12 @@ const embed = (node) => {
   }
 }
 
-const storyList = (nodeList) => nodeList?.data?.target?.items?.map(node => parser(node))
+const storyList = (nodeList) => nodeList?.data?.target?.items?.map(node => {
+  console.log(node)
+  return parser(node)
+})
+
+console.log({storyList})
 
 export default (node) => {
   const type = node?.data?.target?.sys?.contentType?.sys?.id
