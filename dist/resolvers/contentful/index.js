@@ -15,12 +15,6 @@ Object.defineProperty(exports, "associatedPress", {
     return _associatedPress["default"];
   }
 });
-Object.defineProperty(exports, "document", {
-  enumerable: true,
-  get: function get() {
-    return _document["default"];
-  }
-});
 Object.defineProperty(exports, "embed", {
   enumerable: true,
   get: function get() {
@@ -201,7 +195,5 @@ var _video = _interopRequireDefault(require("./video"));
 var _vimeo = _interopRequireDefault(require("./vimeo"));
 
 var _youtube = _interopRequireDefault(require("./youtube"));
-
-var _document = _interopRequireDefault(require("./document"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

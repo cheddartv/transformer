@@ -39,6 +39,7 @@ var _default = function _default(node) {
   var _node$data4, _node$data4$target, _node$data4$target$sy, _node$data4$target$sy2, _node$data4$target$sy3;
 
   var type = node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$sy = _node$data4$target.sys) === null || _node$data4$target$sy === void 0 ? void 0 : (_node$data4$target$sy2 = _node$data4$target$sy.contentType) === null || _node$data4$target$sy2 === void 0 ? void 0 : (_node$data4$target$sy3 = _node$data4$target$sy2.sys) === null || _node$data4$target$sy3 === void 0 ? void 0 : _node$data4$target$sy3.id;
+  console.log(type);
 
   switch (type) {
     case 'videoFile':
