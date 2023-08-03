@@ -20,8 +20,8 @@ const embed = (node) => {
 const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories
     ?.map(
-      (story) => `<div class='story' data-title=${story?.fields?.title}
-                     data-slug=${story?.fields?.slug} data-thumb=${story?.fields?.thumbnail}></div>`
+      (story) => `<div class='story' data-title='${story?.fields?.title}'
+                     data-slug='${story?.fields?.slug}' data-thumb='${story?.fields?.thumbnail}'></div>`
     )
     .split(',')
     .join('')}</div>`
