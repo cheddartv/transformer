@@ -35,9 +35,9 @@ var list = function list(node) {
   var _node$data4, _node$data4$target, _node$data4$target$fi, _node$data4$target$fi2;
 
   return "<div class='storyList'>".concat(node === null || node === void 0 ? void 0 : (_node$data4 = node.data) === null || _node$data4 === void 0 ? void 0 : (_node$data4$target = _node$data4.target) === null || _node$data4$target === void 0 ? void 0 : (_node$data4$target$fi = _node$data4$target.fields) === null || _node$data4$target$fi === void 0 ? void 0 : (_node$data4$target$fi2 = _node$data4$target$fi.stories) === null || _node$data4$target$fi2 === void 0 ? void 0 : _node$data4$target$fi2.map(function (story) {
-    var _story$fields, _story$fields2, _story$fields3;
+    var _story$fields, _story$fields2, _story$fields3, _story$fields3$thumbn, _story$fields3$thumbn2, _story$fields3$thumbn3;
 
-    return "<div class='story' data-title='".concat(story === null || story === void 0 ? void 0 : (_story$fields = story.fields) === null || _story$fields === void 0 ? void 0 : _story$fields.title, "'\n                     data-slug='").concat(story === null || story === void 0 ? void 0 : (_story$fields2 = story.fields) === null || _story$fields2 === void 0 ? void 0 : _story$fields2.slug, "' data-thumb='").concat(story === null || story === void 0 ? void 0 : (_story$fields3 = story.fields) === null || _story$fields3 === void 0 ? void 0 : _story$fields3.thumbnail, "'></div>");
+    return "<div class='story' data-title='".concat(story === null || story === void 0 ? void 0 : (_story$fields = story.fields) === null || _story$fields === void 0 ? void 0 : _story$fields.title, "'\n                     data-slug='").concat(story === null || story === void 0 ? void 0 : (_story$fields2 = story.fields) === null || _story$fields2 === void 0 ? void 0 : _story$fields2.slug, "' data-thumb='").concat(story === null || story === void 0 ? void 0 : (_story$fields3 = story.fields) === null || _story$fields3 === void 0 ? void 0 : (_story$fields3$thumbn = _story$fields3.thumbnail) === null || _story$fields3$thumbn === void 0 ? void 0 : (_story$fields3$thumbn2 = _story$fields3$thumbn.fields) === null || _story$fields3$thumbn2 === void 0 ? void 0 : (_story$fields3$thumbn3 = _story$fields3$thumbn2.file) === null || _story$fields3$thumbn3 === void 0 ? void 0 : _story$fields3$thumbn3.url, "'></div>");
   }).join(''), "</div>");
 };
 

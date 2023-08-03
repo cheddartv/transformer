@@ -21,7 +21,7 @@ const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories
     ?.map(
       (story) => `<div class='story' data-title='${story?.fields?.title}'
-                     data-slug='${story?.fields?.slug}' data-thumb='${story?.fields?.thumbnail}'></div>`
+                     data-slug='${story?.fields?.slug}' data-thumb='${story?.fields?.thumbnail?.fields?.file?.url}'></div>`
     )
     .join('')}</div>`
 }
