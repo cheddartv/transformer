@@ -19,7 +19,7 @@ const embed = (node) => {
 
 const list = (node) => {
   const body = `<div class='storyList'>${node?.data?.target?.fields?.stories?.map(
-    (story) => `<div class='story'
+    (story) => `<div class='story' data-title='${story?.fields?.title}'
                      data-slug='${story?.fields?.slug}' data-thumb='${story?.fields?.thumbnail}'></div>`
   )}</div>`
 
