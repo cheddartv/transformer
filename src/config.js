@@ -44,7 +44,9 @@ export default {
       class: 'youtube-embed'
     }
   },
-  image: {},
+  image: {
+    class: 'image'
+  },
   list: {
     class: 'list'
   },
