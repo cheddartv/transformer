@@ -21,7 +21,11 @@ const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories
     ?.map(
       (story) => `<div class='story' data-title='${story?.fields?.title}'
-                     data-slug='${story?.fields?.slug}' data-thumb='${story?.fields?.thumbnail?.fields?.file?.url}'></div>`
+                     data-slug='${story?.fields?.slug}' 
+                     data-thumb='${story?.fields?.thumbnail?.fields?.file?.url}' 
+                     data-mp4='${story?.fields?.videoUrls?.fields?.['video/mp4']}'
+                     data-mpeg='${story?.fields?.videoUrls?.fields?.['application/x-mpegURL']}'>
+                     poster='${story?.fields?.videoUrls?.['image/jpeg']}'</div>`
     )
     .join('')}</div>`
 }
