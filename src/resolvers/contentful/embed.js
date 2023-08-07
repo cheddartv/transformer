@@ -14,9 +14,11 @@ const embed = (node) => {
     case codeSnippet.startsWith('<blockquote class="instagram-media"'):
       return `<div class='${config.embed.instagram.class}' 
                  data-embed='${encode(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
-    case codeSnippet.includes('https://portal.cityspark.com/PortalScripts/news12'):
+
+    case codeSnippet.includes('https://portal.cityspark.com/PortalScripts'):
       return `<div class='${config.embed.citySpark.class}' 
                  data-embed='${node?.data?.target?.fields?.code}'></div>`
+
     default:
       return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
   }
