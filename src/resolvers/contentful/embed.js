@@ -9,11 +9,16 @@ const fixInstagramScriptSrc = (html) =>
   )
 
 const embed = (node) => {
-  if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
-    return `<div class='${config.embed.instagram.class}' 
+  const codeSnippet = node?.data?.target?.fields?.code
+  switch (codeSnippet) {
+    case codeSnippet.startsWith('<blockquote class="instagram-media"'):
+      return `<div class='${config.embed.instagram.class}' 
                  data-embed='${encode(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
-  } else {
-    return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
+    case codeSnippet.startsWith('<script type="text/javascript" src="https://portal.cityspark.com/PortalScripts/news12-'):
+      return `<div class='${config.embed.citySpark.class}' 
+                 data-embed='${node?.data?.target?.fields?.code}'></div>`
+    default:
+      return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
   }
 }
 
