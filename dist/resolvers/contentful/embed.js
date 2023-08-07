@@ -33,7 +33,7 @@ var embed = function embed(node) {
       return "<div class='".concat(_config["default"].embed.instagram["class"], "' \n                 data-embed='").concat((0, _he.encode)(fixInstagramScriptSrc(codeSnippet)), "'></div>");
 
     case findTerm('https://portal.cityspark.com/PortalScripts'):
-      return "<div class='".concat(_config["default"].embed.citySpark["class"], "' \n                 data-embed='").concat(codeSnippet, "'></div>");
+      return "<div class='".concat(_config["default"].embed.citySpark["class"], "' \n                 data-embed='").concat((0, _he.encode)(codeSnippet), "'></div>");
 
     default:
       return "<div class='".concat(_config["default"].embed["class"], "'><div>").concat(codeSnippet, "</div></div>");
