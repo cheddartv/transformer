@@ -24,7 +24,7 @@ const embed = (node) => {
 
     case findTerm('https://portal.cityspark.com/PortalScripts'):
       return `<div class='${config.embed.citySpark.class}' 
-                 data-embed='${codeSnippet}'></div>`
+                 data-embed='${encode(codeSnippet)}'></div>`
 
     default:
       return `<div class='${config.embed.class}'><div>${codeSnippet}</div></div>`
