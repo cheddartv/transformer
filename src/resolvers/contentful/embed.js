@@ -22,7 +22,7 @@ const list = (node) => {
     ?.map((story) => {
       const mpeg = story?.fields?.videoFile?.fields?.videoUrls?.['application/x-mpegURL']
       const mp4 = story?.fields?.videoFile?.fields?.videoUrls?.['video/mp4']
-      const duration = mpeg?.duration || mp4?.duration
+      const duration = story?.fields?.videoFile?.fields?.duration
       const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
       const poster = story?.fields?.videoUrls?.['image/jpeg']
 
