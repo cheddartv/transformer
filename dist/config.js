@@ -78,7 +78,10 @@ var _default = {
     "class": 'twitter-tweet'
   },
   video: {
-    "class": 'body-video'
+    "class": 'article-body-video'
+  },
+  'video-asset': {
+    "class": 'body-video-asset'
   }
 };
 exports["default"] = _default;

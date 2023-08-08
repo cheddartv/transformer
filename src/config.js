@@ -74,4 +74,7 @@ export default {
   video: {
     class: 'body-video'
   },
+  'video-asset': {
+    class: 'body-video-asset'
+  }
 }
