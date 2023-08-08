@@ -24,6 +24,7 @@ const list = (node) => {
       const mp4 = story?.fields?.videoUrls?.fields?.['video/mp4']
       const duration = mpeg?.duration || mp4?.duration
       const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
+      const poster = story?.fields?.videoUrls?.['image/jpeg']
 
       return `<div class='story' data-title='${story?.fields?.title}'
                      data-slug='${story?.fields?.slug}' 
@@ -32,7 +33,7 @@ const list = (node) => {
                      ${mp4 ? `data-mp4='${mp4}'` : ''}
                      ${mpeg ? `data-mpeg='${mpeg}'` : ''}
                      ${duration ? `data-duration='${duration}'` : ''}
-                     ${poster ? `poster='${story?.fields?.videoUrls?.['image/jpeg']}'` : ''}>
+                     ${poster ? `poster='${poster}'` : ''}>
                   </div>`
     })
     .join('')}</div>`
