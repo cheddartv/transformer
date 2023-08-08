@@ -9,11 +9,25 @@ const fixInstagramScriptSrc = (html) =>
   )
 
 const embed = (node) => {
-  if (node?.data?.target?.fields?.code.startsWith('<blockquote class="instagram-media"')) {
-    return `<div class='${config.embed.instagram.class}' 
-                 data-embed='${encode(fixInstagramScriptSrc(node?.data?.target?.fields?.code))}'></div>`
-  } else {
-    return `<div class='${config.embed.class}'><div>${node?.data?.target?.fields?.code}</div></div>`
+  const codeSnippet = node?.data?.target?.fields?.code
+
+  const findTerm = (term) => {
+    if (codeSnippet.includes(term)) {
+      return codeSnippet
+    }
+  }
+
+  switch (codeSnippet) {
+    case findTerm('<blockquote class="instagram-media"'):
+      return `<div class='${config.embed.instagram.class}' 
+                 data-embed='${encode(fixInstagramScriptSrc(codeSnippet))}'></div>`
+
+    case findTerm('https://portal.cityspark.com/PortalScripts'):
+      return `<div class='${config.embed['city-spark'].class}' 
+                 data-embed='${encode(codeSnippet)}'></div>`
+
+    default:
+      return `<div class='${config.embed.class}'><div>${codeSnippet}</div></div>`
   }
 }
 
