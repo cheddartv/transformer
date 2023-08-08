@@ -23,7 +23,7 @@ const embed = (node) => {
                  data-embed='${encode(fixInstagramScriptSrc(codeSnippet))}'></div>`
 
     case findTerm('https://portal.cityspark.com/PortalScripts'):
-      return `<div class='${config.embed.citySpark.class}' 
+      return `<div class='${config.embed['city-spark'].class}' 
                  data-embed='${encode(codeSnippet)}'></div>`
 
     default:
