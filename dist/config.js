@@ -5,6 +5,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _default = {
+  asset: {
+    image: {
+      "class": 'image'
+    },
+    pdf: {
+      "class": 'pdf-embed'
+    },
+    video: {
+      "class": 'body-video-asset'
+    }
+  },
   embed: {
     "class": 'embed',
     'associated-press': {
@@ -53,17 +64,11 @@ var _default = {
       "class": 'youtube-embed'
     }
   },
-  image: {
-    "class": 'image'
-  },
   list: {
     "class": 'list'
   },
   paragraph: {
     "class": 'block'
-  },
-  pdf: {
-    "class": 'pdf-embed'
   },
   quote: {
     "class": 'left'

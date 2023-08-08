@@ -1,4 +1,5 @@
-import { asset, embed, listItem, list, paragraph, quote, tableCell, tableHeaderCell } from '../../resolvers/contentful'
+import { embed, listItem, list, paragraph, quote, tableCell, tableHeaderCell } from '../../resolvers/contentful'
+import { asset } from '../../resolvers/contentful/asset'
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
 import { BLOCKS } from '@contentful/rich-text-types'
 
