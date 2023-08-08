@@ -2,7 +2,7 @@ import config from '../../config'
 
 export default (node) =>
   `<div
-    class="${config['video-asset'].class}"
+    class="${config.asset.video.class}"
     data-title="${node.data.target.fields.file.title}"
     data-type="${node.data.target.fields.file.contentType}"
     data-description="${node.data.target.fields.description}"

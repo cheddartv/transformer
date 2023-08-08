@@ -1,4 +1,15 @@
 export default {
+  asset: {
+    image: {
+      class: 'image'
+    },
+    pdf: {
+      class: 'pdf-embed'
+    },
+    video: {
+      class: 'body-video-asset'
+    }
+  },
   embed: {
     class: 'embed',
     'associated-press': {
@@ -50,17 +61,11 @@ export default {
       class: 'youtube-embed'
     }
   },
-  image: {
-    class: 'image'
-  },
   list: {
     class: 'list'
   },
   paragraph: {
     class: 'block'
-  },
-  pdf: {
-    class: 'pdf-embed'
   },
   quote: {
     class: 'left'
@@ -73,8 +78,5 @@ export default {
   },
   video: {
     class: 'body-video'
-  },
-  'video-asset': {
-    class: 'body-video-asset'
   }
 }
