@@ -26,8 +26,9 @@ const list = (node) => {
                      data-mp4='${story?.fields?.videoUrls?.fields?.['video/mp4']}'
                      data-mpeg='${story?.fields?.videoUrls?.fields?.['application/x-mpegURL']}'
                      data-published='${story?.fields?.publishedAt}'
-                     data-duration='${story?.fields?.videoUrls?.fields?.['video/mp4']?.duration}'>
-                     poster='${story?.fields?.videoUrls?.['image/jpeg']}'</div>`
+                     data-duration='${story?.fields?.videoUrls?.fields?.['video/mp4']?.duration}'
+                     poster='${story?.fields?.videoUrls?.['image/jpeg']}'>
+                  </div>`
     )
     .join('')}</div>`
 }
