@@ -20,8 +20,8 @@ const embed = (node) => {
 const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories
     ?.map((story) => {
-      const mpeg = story?.fields?.videoUrls?.fields?.['application/x-mpegURL']
-      const mp4 = story?.fields?.videoUrls?.fields?.['video/mp4']
+      const mpeg = story?.fields?.videoFile?.fields?.videoUrls?.fields?.['application/x-mpegURL']
+      const mp4 = story?.fields?.videoFile?.fields?.videoUrls?.fields?.['video/mp4']
       const duration = mpeg?.duration || mp4?.duration
       const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
       const poster = story?.fields?.videoUrls?.['image/jpeg']
