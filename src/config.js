@@ -66,7 +66,7 @@ export default {
     class: 'twitter-tweet'
   },
   video: {
-    class: 'article-body-video'
+    class: 'body-video'
   },
   'video-asset': {
     class: 'body-video-asset'
