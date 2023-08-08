@@ -12,7 +12,7 @@ export default (node, next) => {
     case 'application/pdf':
       return pdf(node)
     case 'video/mp4':
-      return videoAsset
+      return videoAsset(node)
     default:
       return ''
   }

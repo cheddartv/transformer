@@ -23,7 +23,7 @@ var _default = function _default(node, next) {
       return (0, _.pdf)(node);
 
     case 'video/mp4':
-      return _.videoAsset;
+      return (0, _.videoAsset)(node);
 
     default:
       return '';
