@@ -3,12 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "asset", {
-  enumerable: true,
-  get: function get() {
-    return _asset["default"];
-  }
-});
 Object.defineProperty(exports, "associatedPress", {
   enumerable: true,
   get: function get() {
@@ -45,12 +39,6 @@ Object.defineProperty(exports, "googleMaps", {
     return _googleMaps["default"];
   }
 });
-Object.defineProperty(exports, "image", {
-  enumerable: true,
-  get: function get() {
-    return _image["default"];
-  }
-});
 Object.defineProperty(exports, "list", {
   enumerable: true,
   get: function get() {
@@ -67,12 +55,6 @@ Object.defineProperty(exports, "paragraph", {
   enumerable: true,
   get: function get() {
     return _paragraph["default"];
-  }
-});
-Object.defineProperty(exports, "pdf", {
-  enumerable: true,
-  get: function get() {
-    return _pdf["default"];
   }
 });
 Object.defineProperty(exports, "quote", {
@@ -135,12 +117,6 @@ Object.defineProperty(exports, "video", {
     return _video["default"];
   }
 });
-Object.defineProperty(exports, "videoAsset", {
-  enumerable: true,
-  get: function get() {
-    return _videoAsset["default"];
-  }
-});
 Object.defineProperty(exports, "vimeo", {
   enumerable: true,
   get: function get() {
@@ -154,8 +130,6 @@ Object.defineProperty(exports, "youtube", {
   }
 });
 
-var _asset = _interopRequireDefault(require("./asset"));
-
 var _associatedPress = _interopRequireDefault(require("./associated-press"));
 
 var _embed = _interopRequireDefault(require("./embed"));
@@ -163,8 +137,6 @@ var _embed = _interopRequireDefault(require("./embed"));
 var _facebook = _interopRequireDefault(require("./facebook"));
 
 var _ugcForm = _interopRequireDefault(require("./ugc-form"));
-
-var _image = _interopRequireDefault(require("./image"));
 
 var _ugcGallery = _interopRequireDefault(require("./ugc-gallery"));
 
@@ -175,8 +147,6 @@ var _listItem = _interopRequireDefault(require("./list-item"));
 var _list = _interopRequireDefault(require("./list"));
 
 var _paragraph = _interopRequireDefault(require("./paragraph"));
-
-var _pdf = _interopRequireDefault(require("./pdf"));
 
 var _quote = _interopRequireDefault(require("./quote"));
 
@@ -197,8 +167,6 @@ var _tiktok = _interopRequireDefault(require("./tiktok"));
 var _twitter = _interopRequireDefault(require("./twitter"));
 
 var _video = _interopRequireDefault(require("./video"));
-
-var _videoAsset = _interopRequireDefault(require("./video-asset"));
 
 var _vimeo = _interopRequireDefault(require("./vimeo"));
 
