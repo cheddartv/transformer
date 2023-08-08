@@ -19,17 +19,22 @@ const embed = (node) => {
 
 const list = (node) => {
   return `<div class='storyList'>${node?.data?.target?.fields?.stories
-    ?.map(
-      (story) => `<div class='story' data-title='${story?.fields?.title}'
+    ?.map((story) => {
+      const mpeg = story?.fields?.videoUrls?.fields?.['application/x-mpegURL']
+      const mp4 = story?.fields?.videoUrls?.fields?.['video/mp4']
+      const duration = mpeg?.duration || mp4?.duration
+      const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
+
+      return `<div class='story' data-title='${story?.fields?.title}'
                      data-slug='${story?.fields?.slug}' 
-                     data-thumb='${story?.fields?.thumbnail?.fields?.file?.url}' 
-                     data-mp4='${story?.fields?.videoUrls?.fields?.['video/mp4']}'
-                     data-mpeg='${story?.fields?.videoUrls?.fields?.['application/x-mpegURL']}'
                      data-published='${story?.fields?.publishedAt}'
-                     data-duration='${story?.fields?.videoUrls?.fields?.['video/mp4']?.duration}'
-                     poster='${story?.fields?.videoUrls?.['image/jpeg']}'>
+                     ${thumbnail ? `data-thumb='${thumbnail}'` : ''} 
+                     ${mp4 ? `data-mp4='${mp4}'` : ''}
+                     ${mpeg ? `data-mpeg='${mpeg}'` : ''}
+                     ${duration ? `data-duration='${duration}'` : ''}
+                     ${poster ? `poster='${story?.fields?.videoUrls?.['image/jpeg']}'` : ''}>
                   </div>`
-    )
+    })
     .join('')}</div>`
 }
 
