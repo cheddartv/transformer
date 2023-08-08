@@ -7,7 +7,7 @@ export default {
     carousel: {
       class: 'carousel-embed'
     },
-    citySpark: {
+    'city-spark': {
       class: 'city-spark-embed'
     },
     facebook: {
