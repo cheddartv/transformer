@@ -135,6 +135,12 @@ Object.defineProperty(exports, "video", {
     return _video["default"];
   }
 });
+Object.defineProperty(exports, "videoAsset", {
+  enumerable: true,
+  get: function get() {
+    return _videoAsset["default"];
+  }
+});
 Object.defineProperty(exports, "vimeo", {
   enumerable: true,
   get: function get() {
@@ -191,6 +197,8 @@ var _tiktok = _interopRequireDefault(require("./tiktok"));
 var _twitter = _interopRequireDefault(require("./twitter"));
 
 var _video = _interopRequireDefault(require("./video"));
+
+var _videoAsset = _interopRequireDefault(require("./video-asset"));
 
 var _vimeo = _interopRequireDefault(require("./vimeo"));
 

@@ -1,4 +1,4 @@
-import { image, pdf } from '.'
+import { image, pdf, videoAsset } from '.'
 
 export default (node, next) => {
   const type = node?.data?.target?.fields?.file?.contentType
@@ -11,6 +11,8 @@ export default (node, next) => {
       return image(node)
     case 'application/pdf':
       return pdf(node)
+    case 'video/mp4':
+      return videoAsset
     default:
       return ''
   }

@@ -68,4 +68,7 @@ export default {
   video: {
     class: 'article-body-video'
   },
+  'video-asset': {
+    class: 'body-video-asset'
+  }
 }

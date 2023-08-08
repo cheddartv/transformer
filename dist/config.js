@@ -73,6 +73,9 @@ var _default = {
   },
   video: {
     "class": 'article-body-video'
+  },
+  'video-asset': {
+    "class": 'body-video-asset'
   }
 };
 exports["default"] = _default;
