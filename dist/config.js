@@ -24,7 +24,7 @@ var _default = {
     carousel: {
       "class": 'carousel-embed'
     },
-    citySpark: {
+    'city-spark': {
       "class": 'city-spark-embed'
     },
     facebook: {
@@ -83,7 +83,7 @@ var _default = {
     "class": 'twitter-tweet'
   },
   video: {
-    "class": 'body-video'
+    "class": 'article-body-video'
   }
 };
 exports["default"] = _default;
