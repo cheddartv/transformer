@@ -55,9 +55,9 @@ var list = function list(node) {
 };
 
 var _default = function _default(node) {
-  var _node$data3, _node$data3$target, _node$data3$target$sy, _node$data3$target$sy2, _node$data3$target$sy3;
+  var _node$data2, _node$data2$target, _node$data2$target$sy, _node$data2$target$sy2, _node$data2$target$sy3;
 
-  var type = node === null || node === void 0 ? void 0 : (_node$data3 = node.data) === null || _node$data3 === void 0 ? void 0 : (_node$data3$target = _node$data3.target) === null || _node$data3$target === void 0 ? void 0 : (_node$data3$target$sy = _node$data3$target.sys) === null || _node$data3$target$sy === void 0 ? void 0 : (_node$data3$target$sy2 = _node$data3$target$sy.contentType) === null || _node$data3$target$sy2 === void 0 ? void 0 : (_node$data3$target$sy3 = _node$data3$target$sy2.sys) === null || _node$data3$target$sy3 === void 0 ? void 0 : _node$data3$target$sy3.id;
+  var type = node === null || node === void 0 ? void 0 : (_node$data2 = node.data) === null || _node$data2 === void 0 ? void 0 : (_node$data2$target = _node$data2.target) === null || _node$data2$target === void 0 ? void 0 : (_node$data2$target$sy = _node$data2$target.sys) === null || _node$data2$target$sy === void 0 ? void 0 : (_node$data2$target$sy2 = _node$data2$target$sy.contentType) === null || _node$data2$target$sy2 === void 0 ? void 0 : (_node$data2$target$sy3 = _node$data2$target$sy2.sys) === null || _node$data2$target$sy3 === void 0 ? void 0 : _node$data2$target$sy3.id;
 
   switch (type) {
     case 'videoFile':
