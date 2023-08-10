@@ -28,6 +28,9 @@ export default {
     spotify: {
       class: 'spotify-embed'
     },
+    storyList: {
+      class: 'story-list'
+    },
     tagboard: {
       class: 'tagboard-embed'
     },
@@ -67,5 +70,5 @@ export default {
   },
   video: {
     class: 'article-body-video'
-  },
+  }
 }
