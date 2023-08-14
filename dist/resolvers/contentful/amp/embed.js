@@ -9,6 +9,8 @@ var _ = require(".");
 
 var _instagram = _interopRequireDefault(require("./instagram"));
 
+var _storylist = _interopRequireDefault(require("./storylist"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var _default = function _default(node) {
@@ -26,6 +28,9 @@ var _default = function _default(node) {
       }
 
       break;
+
+    case 'list':
+      return (0, _storylist["default"])(node);
 
     default:
       return '';
