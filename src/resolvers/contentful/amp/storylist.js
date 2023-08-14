@@ -8,16 +8,14 @@ export default (node) => {
       const duration = story?.fields?.videoFile?.fields?.duration
       const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
 
-      return `<div class="story">
-      <p class="timestamp">${story?.fields?.publishedAt}</p>
-        <p class="title">${story?.fields?.title}</p>
-                     data-slug="${story?.fields?.slug}" 
-                     data-published=""
-                     ${thumbnail ? `data-thumb="${thumbnail}"` : ''} 
+      return `<div class="story" ${thumbnail ? `data-thumb="${thumbnail}"` : ''} 
                      ${mp4 ? `data-mp4="${mp4}"` : ''}
                      ${hls ? `data-hls="${hls}"` : ''}
-                     ${duration ? `data-duration="${duration}"` : ''}>
-                  </div>`
+                     ${duration ? `data-duration="${duration}"` : ''} 
+                     data-slug="${story?.fields?.slug}">
+                  <p class="timestamp">${story?.fields?.publishedAt}</p>
+                  <p class="title">${story?.fields?.title}</p>
+              </div>`
     })
     .join('')}</div>`
 }
