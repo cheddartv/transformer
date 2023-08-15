@@ -33,7 +33,7 @@ const embed = (node) => {
 
 const list = (node) => {
   return `<div class="${config.embed.storyList.class}">
-  <p>${node?.data?.target?.fields?.name || 'Related Stories'}</p>
+  <p>${node?.data?.target?.fields?.name || 'Related stories'}</p>
   ${node?.data?.target?.fields?.stories
     ?.map((story) => {
       const hls = story?.fields?.videoFile?.fields?.videoUrls?.['application/x-mpegURL']
