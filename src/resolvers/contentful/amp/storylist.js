@@ -1,4 +1,4 @@
-export default (node) => {
+export default (node, config) => {
   return `<div class="${config.embed.storyList.class}">
   <p>${node?.data?.target?.fields?.name || 'Related Stories'}</p>
   ${node?.data?.target?.fields?.stories
@@ -8,14 +8,14 @@ export default (node) => {
       const duration = story?.fields?.videoFile?.fields?.duration
       const thumbnail = story?.fields?.thumbnail?.fields?.file?.url
 
-      return `<div class="story" ${thumbnail ? `data-thumb="${thumbnail}"` : ''} 
+      return `<div class="story" data-title="${story?.fields?.title}"
+                     data-slug="${story?.fields?.slug}" 
+                     data-published="${story?.fields?.publishedAt}"
+                     ${thumbnail ? `data-thumb="${thumbnail}"` : ''} 
                      ${mp4 ? `data-mp4="${mp4}"` : ''}
                      ${hls ? `data-hls="${hls}"` : ''}
-                     ${duration ? `data-duration="${duration}"` : ''} 
-                     data-slug="${story?.fields?.slug}">
-                  <p class="timestamp">${story?.fields?.publishedAt}</p>
-                  <p class="title">${story?.fields?.title}</p>
-              </div>`
+                     ${duration ? `data-duration="${duration}"` : ''}>
+                  </div>`
     })
     .join('')}</div>`
 }
