@@ -1,5 +1,5 @@
 export default (node) => {
-  return `<div class="story-list}">
+  return `<div class="story-list">
     <p class="title">${node?.data?.target?.fields?.name || 'Related stories'}</p>
     ${node?.data?.target?.fields?.stories
       ?.map((story) => {
