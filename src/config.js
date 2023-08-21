@@ -42,6 +42,9 @@ export default {
     spotify: {
       class: 'spotify-embed'
     },
+    storyList: {
+      class: 'story-list'
+    },
     tagboard: {
       class: 'tagboard-embed'
     },

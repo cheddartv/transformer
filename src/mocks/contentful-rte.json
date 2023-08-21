@@ -5,138 +5,184 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[facebook]https://www.facebook.com/20531316728/posts/10154009990506729[/facebook]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[facebook]https://www.facebook.com/20531316728/posts/10154009990506729[/facebook]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[facebook]https://www.facebook.com/watch/?v=1192631151430117[/facebook]", "marks": [], "data": {} } ]
+      "content": [
+        { "nodeType": "text", "value": "[facebook]https://www.facebook.com/watch/?v=1192631151430117[/facebook]", "marks": [], "data": {} }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[twitter]https://twitter.com/Santos4Congress/status/1618822155365658625[twitter]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[twitter]https://twitter.com/Santos4Congress/status/1618822155365658625[twitter]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[youtube]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]", "marks": [], "data": {} } ]
+      "content": [
+        { "nodeType": "text", "value": "[youtube]https://www.youtube.com/watch?v=n_uFzLPYDd8[/youtube]", "marks": [], "data": {} }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[ugc-gallery]5365[/ugc-gallery]", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "[ugc-gallery]5365[/ugc-gallery]", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[spotim organization=sp_jdoMBksO]5365[/spotim]", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "[spotim organization=sp_jdoMBksO]5365[/spotim]", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[ugc-form]5365[/ugc-form]", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "[ugc-form]5365[/ugc-form]", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[tagboard]5365[/tagboard]", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "[tagboard]5365[/tagboard]", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[tiktok]https://www.tiktok.com/@scout2015/video/6718335390845095173[/tiktok]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[tiktok]https://www.tiktok.com/@scout2015/video/6718335390845095173[/tiktok]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[instagram]https://www.instagram.com/reel/ConP2YlggdF/?hl=en[/instagram]", "marks": [], "data": {} } ]
+      "content": [
+        { "nodeType": "text", "value": "[instagram]https://www.instagram.com/reel/ConP2YlggdF/?hl=en[/instagram]", "marks": [], "data": {} }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[associated-press]<iframe src=\"https://interactives.ap.org/ap-polling-presidential-approval\" class=\"ap-embed\" width=\"100%\" height=\"600\" style=\"border: 1px solid #eee;\"></iframe>[/associated-press]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[associated-press]<iframe src=\"https://interactives.ap.org/ap-polling-presidential-approval\" class=\"ap-embed\" width=\"100%\" height=\"600\" style=\"border: 1px solid #eee;\"></iframe>[/associated-press]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[soundcloud]https://soundcloud.com/yangximusic/babyshark[/soundcloud]", "marks": [], "data": {} } ]
+      "content": [
+        { "nodeType": "text", "value": "[soundcloud]https://soundcloud.com/yangximusic/babyshark[/soundcloud]", "marks": [], "data": {} }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[google-maps]<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.7037980044033!2d-74.0129422!3d40.7025207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a139d556855%3A0x3f5495d6bf9b2b4f!2s1%20State%20St%2C%20New%20York%2C%20NY%2010004%2C%20USA!5e0!3m2!1sen!2sca!4v1676411914798!5m2!1sen!2sca\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>[/google-maps]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[google-maps]<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.7037980044033!2d-74.0129422!3d40.7025207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a139d556855%3A0x3f5495d6bf9b2b4f!2s1%20State%20St%2C%20New%20York%2C%20NY%2010004%2C%20USA!5e0!3m2!1sen!2sca!4v1676411914798!5m2!1sen!2sca\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>[/google-maps]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[vimeo]https://vimeo.com/165729368[/vimeo]", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "[vimeo]https://vimeo.com/165729368[/vimeo]", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[spotify]https://open.spotify.com/track/4br0nM6NdvDKMJgLj44foR[/spotify]", "marks": [], "data": {} } ]
+      "content": [
+        { "nodeType": "text", "value": "[spotify]https://open.spotify.com/track/4br0nM6NdvDKMJgLj44foR[/spotify]", "marks": [], "data": {} }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "[spotify]https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ[/spotify]", "marks": [], "data": {} } ]
+      "content": [
+        {
+          "nodeType": "text",
+          "value": "[spotify]https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ[/spotify]",
+          "marks": [],
+          "data": {}
+        }
+      ]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "code test", "marks": [ { "type": "code" } ], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "code test", "marks": [{ "type": "code" }], "data": {} }]
     },
     {
       "nodeType": "heading-1",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 1", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 1", "marks": [], "data": {} }]
     },
     {
       "nodeType": "heading-2",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 2", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 2", "marks": [], "data": {} }]
     },
     {
       "nodeType": "heading-3",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 3", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 3", "marks": [], "data": {} }]
     },
     {
       "nodeType": "heading-4",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 4", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 4", "marks": [], "data": {} }]
     },
     {
       "nodeType": "heading-5",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 5", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 5", "marks": [], "data": {} }]
     },
     {
       "nodeType": "heading-6",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "Heading 6", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "Heading 6", "marks": [], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [
-        { "nodeType": "text", "value": "Normal text but bold", "marks": [ { "type": "bold" } ], "data": {} }
-      ]
+      "content": [{ "nodeType": "text", "value": "Normal text but bold", "marks": [{ "type": "bold" }], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [
-        { "nodeType": "text", "value": "Normal text but italic", "marks": [ { "type": "italic" } ], "data": {} }
-      ]
+      "content": [{ "nodeType": "text", "value": "Normal text but italic", "marks": [{ "type": "italic" }], "data": {} }]
     },
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [
-        { "nodeType": "text", "value": "Normal text but underline", "marks": [ { "type": "underline" } ], "data": {} }
-      ]
+      "content": [{ "nodeType": "text", "value": "Normal text but underline", "marks": [{ "type": "underline" }], "data": {} }]
     },
     {
       "nodeType": "paragraph",
@@ -151,7 +197,7 @@
         {
           "nodeType": "hyperlink",
           "data": { "uri": "https://twitter.com/status/test" },
-          "content": [ { "nodeType": "text", "value": "Sample hyperlink", "marks": [], "data": {} } ]
+          "content": [{ "nodeType": "text", "value": "Sample hyperlink", "marks": [], "data": {} }]
         },
         { "nodeType": "text", "value": " and ends.", "marks": [], "data": {} }
       ]
@@ -167,7 +213,7 @@
             {
               "nodeType": "paragraph",
               "data": {},
-              "content": [ { "nodeType": "text", "value": "Unordered list item 1", "marks": [], "data": {} } ]
+              "content": [{ "nodeType": "text", "value": "Unordered list item 1", "marks": [], "data": {} }]
             }
           ]
         },
@@ -178,7 +224,7 @@
             {
               "nodeType": "paragraph",
               "data": {},
-              "content": [ { "nodeType": "text", "value": "Unordered list item 2", "marks": [], "data": {} } ]
+              "content": [{ "nodeType": "text", "value": "Unordered list item 2", "marks": [], "data": {} }]
             }
           ]
         },
@@ -194,10 +240,10 @@
                 {
                   "nodeType": "hyperlink",
                   "data": { "uri": "https://google.com" },
-                  "content": [ { "nodeType": "text", "value": "test", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "test", "marks": [], "data": {} }]
                 },
                 { "nodeType": "text", "value": " and text in ", "marks": [], "data": {} },
-                { "nodeType": "text", "value": "bold", "marks": [ { "type": "bold" } ], "data": {} }
+                { "nodeType": "text", "value": "bold", "marks": [{ "type": "bold" }], "data": {} }
               ]
             }
           ]
@@ -215,7 +261,7 @@
             {
               "nodeType": "paragraph",
               "data": {},
-              "content": [ { "nodeType": "text", "value": "Ordered list item 1", "marks": [], "data": {} } ]
+              "content": [{ "nodeType": "text", "value": "Ordered list item 1", "marks": [], "data": {} }]
             }
           ]
         },
@@ -226,7 +272,7 @@
             {
               "nodeType": "paragraph",
               "data": {},
-              "content": [ { "nodeType": "text", "value": "Ordered list item 2", "marks": [], "data": {} } ]
+              "content": [{ "nodeType": "text", "value": "Ordered list item 2", "marks": [], "data": {} }]
             }
           ]
         }
@@ -249,7 +295,7 @@
             {
               "nodeType": "text",
               "value": "be long in the bed, purr in the morning and then give a bite to every human around for not waki",
-              "marks": [ { "type": "bold" } ],
+              "marks": [{ "type": "bold" }],
               "data": {}
             },
             {
@@ -258,7 +304,7 @@
               "marks": [],
               "data": {}
             },
-            { "nodeType": "text", "value": "nyaa", "marks": [ { "type": "underline" } ], "data": {} },
+            { "nodeType": "text", "value": "nyaa", "marks": [{ "type": "underline" }], "data": {} },
             { "nodeType": "text", "value": " nyaa.", "marks": [], "data": {} }
           ]
         }
@@ -279,7 +325,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Header 1", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Header 1", "marks": [], "data": {} }]
                 }
               ]
             },
@@ -290,7 +336,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Header 2", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Header 2", "marks": [], "data": {} }]
                 }
               ]
             }
@@ -307,7 +353,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Item 1", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Item 1", "marks": [], "data": {} }]
                 }
               ]
             },
@@ -318,7 +364,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Item 1", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Item 1", "marks": [], "data": {} }]
                 }
               ]
             }
@@ -335,7 +381,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Item 2", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Item 2", "marks": [], "data": {} }]
                 }
               ]
             },
@@ -346,7 +392,7 @@
                 {
                   "nodeType": "paragraph",
                   "data": {},
-                  "content": [ { "nodeType": "text", "value": "Item 2", "marks": [], "data": {} } ]
+                  "content": [{ "nodeType": "text", "value": "Item 2", "marks": [], "data": {} }]
                 }
               ]
             }
@@ -357,7 +403,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "This is an entry called videoFile", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "This is an entry called videoFile", "marks": [], "data": {} }]
     },
     {
       "nodeType": "embedded-entry-block",
@@ -490,7 +536,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "This is an entry called Embed", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "This is an entry called Embed", "marks": [], "data": {} }]
     },
     {
       "nodeType": "embedded-entry-block",
@@ -519,7 +565,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "embedded asset ", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "embedded asset ", "marks": [], "data": {} }]
     },
     {
       "nodeType": "embedded-asset-block",
@@ -553,7 +599,7 @@
     {
       "nodeType": "paragraph",
       "data": {},
-      "content": [ { "nodeType": "text", "value": "This is a PDF", "marks": [], "data": {} } ]
+      "content": [{ "nodeType": "text", "value": "This is a PDF", "marks": [], "data": {} }]
     },
     {
       "nodeType": "embedded-asset-block",
@@ -587,7 +633,7 @@
       "nodeType": "paragraph",
       "data": {},
       "content": [
-        { "nodeType": "text", "value": "Social: (embeds) ", "marks": [ { "type": "bold" } ], "data": {} },
+        { "nodeType": "text", "value": "Social: (embeds) ", "marks": [{ "type": "bold" }], "data": {} },
         {
           "nodeType": "text",
           "value": "\nTwitter\nFB (Especially Live Videos)\nInstagram\nTikTok (Just in case...futureproofing)\nYouTube",
@@ -600,7 +646,7 @@
       "nodeType": "paragraph",
       "data": {},
       "content": [
-        { "nodeType": "text", "value": "Other:", "marks": [ { "type": "bold" } ], "data": {} },
+        { "nodeType": "text", "value": "Other:", "marks": [{ "type": "bold" }], "data": {} },
         {
           "nodeType": "text",
           "value": "\n-AP Embeds\n-Native PDFs\n-Photo Galleries \n-Citizen\n-Minute video\n-Flourish (Working on contract)\n-Sound apps like SoundCloud",
@@ -608,6 +654,57 @@
           "data": {}
         }
       ]
+    },
+    {
+      "nodeType": "embedded-entry-block",
+      "data": {
+        "target": {
+          "sys": {
+            "id": "45XGy0BDby5tg0IhN2iNe8",
+            "type": "Entry",
+            "createdAt": "2023-06-05T20:40:59.100Z",
+            "updatedAt": "2023-08-02T18:58:37.593Z",
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "list"
+              }
+            }
+          },
+          "fields": {
+            "name": "Crime Files",
+            "title": "Crime Files",
+            "stories": [
+              {
+                "sys": {
+                  "id": "6im0EgsIcIl9Q8JExmsDTd",
+                  "type": "Entry",
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "story"
+                    }
+                  }
+                },
+                "fields": {
+                  "title": "TEST EMBEDS+",
+                  "slug": "police-stolen-car-chase-ends-in-crash-on-hutchinson-river-parkway-2-arrested",
+                  "slugValidation": "true",
+                  "authors": [],
+                  "publishedAt": "2023-04-25T12:25:31-04:00",
+                  "originalPublishedAt": "2023-04-25T12:25:31-04:00",
+                  "description": "Police in Scarsdale say one person was apprehended after law enforcement identified the stolen car in Mount Vernon yesterday.",
+                  "content": {},
+                  "regions": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      "content": []
     }
   ]
 }
