@@ -32,6 +32,7 @@ const embed = (node) => {
 }
 
 const list = (node) => {
+  console.log(node)
   return `<div class="${config.embed.storyList.class}">
   <p>${node?.data?.target?.fields?.name || 'Related stories'}</p>
   ${node?.data?.target?.fields?.stories
