@@ -34,7 +34,7 @@ export default {
       class: 'instagram-embed'
     },
     platformsList: {
-      class: 'partners-list-embed'
+      class: 'platforms-list-embed'
     },
     soundcloud: {
       class: 'soundcloud-embed'
