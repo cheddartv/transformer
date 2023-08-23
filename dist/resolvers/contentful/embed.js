@@ -79,7 +79,7 @@ var _default = function _default(node) {
     case 'list':
       return list(node);
 
-    case platformsList:
+    case 'platformsList':
       return platformsList(node);
 
     default:
