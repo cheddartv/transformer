@@ -7,8 +7,8 @@ export default (node) => {
     ${node?.data?.target?.fields?.platforms
       ?.map((platform) => {
         return `<a class="platform-link" "${platform?.fields?.url}">
-                                <div class="platform">
-                                  <img src="https:${platform?.fields?.logoHover?.fields?.file?.url}" alt="${platform?.fields?.logo?.fields?.title}">
+                                <div class="platform" style="background: ${platform?.fields?.background}">
+                                  <img src="https:${platform?.fields?.logo?.fields?.file?.url}" alt="${platform?.fields?.logo?.fields?.title}">
                                 </div>
                               </a>`
       })
