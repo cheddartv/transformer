@@ -8,7 +8,7 @@ export default (node) => {
       ?.map((platform) => {
         return `<a class="platform-link" "${platform?.fields?.url}">
                                 <div class="platform">
-                                  <img src="${platform?.fields?.logo?.fields?.file?.url}" alt="${platform?.fields?.logo?.fields?.title}">
+                                  <img src="https:${platform?.fields?.logo?.fields?.file?.url}" alt="${platform?.fields?.logo?.fields?.title}">
                                 </div>
                               </a>`
       })
