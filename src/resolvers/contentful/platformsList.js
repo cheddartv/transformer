@@ -2,7 +2,7 @@ import config from '../../config'
 
 export default (node) => {
   return `<div class="${config.embed.platformsList.class}">
-            <p>${node?.data?.target?.fields?.name || "Where To Watch"}</p>
+            <p>${node?.data?.target?.fields?.title}</p>
               ${node?.data?.target?.fields?.platforms
                 ?.map(
                   (platform) => `<div class="platform" data-name="${platform?.fields?.name}"
