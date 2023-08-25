@@ -13,7 +13,6 @@ export default (node) => {
                                            data-logoTitle="${
                                              platform?.fields?.logo?.fields?.title || platform?.fields?.logo?.fields?.description
                                            }"
-                                           data-logoHover="${platform?.fields?.logoHover?.fields?.file?.url}"
                                            data-logoHover="${platform?.fields?.logoHover?.fields?.file?.url}"></div>`
                 )
                 .join('')}
