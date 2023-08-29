@@ -563,6 +563,178 @@
       "content": []
     },
     {
+      "nodeType": "embedded-entry-block",
+      "data": {
+        "target": {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "3kqcuzntcg31"
+              }
+            },
+            "id": "3S3HLNhPQs6I8HyV2ESqqo",
+            "type": "Entry",
+            "createdAt": "2023-05-31T20:49:20.782Z",
+            "updatedAt": "2023-06-06T14:43:09.396Z",
+            "environment": {
+              "sys": {
+                "id": "dev",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 2,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "platformsList"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Where to Watch",
+            "title": "Where to Watch",
+            "platforms": [
+              {
+                "metadata": {
+                  "tags": []
+                },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "3kqcuzntcg31"
+                    }
+                  },
+                  "id": "7BX9z75j6aeOgNenhmfG2I",
+                  "type": "Entry",
+                  "createdAt": "2023-04-17T16:44:22.743Z",
+                  "updatedAt": "2023-04-18T14:08:15.599Z",
+                  "environment": {
+                    "sys": {
+                      "id": "dev",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "revision": 2,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "platform"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "STIRR",
+                  "url": "https://stirr.com/watchnow/externallinearfeed-09-28-2021-09-28-2021",
+                  "logo": {
+                    "metadata": {
+                      "tags": []
+                    },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "3kqcuzntcg31"
+                        }
+                      },
+                      "id": "PvqoRkSwKDcYs9vECftJZ",
+                      "type": "Asset",
+                      "createdAt": "2023-04-17T16:16:22.557Z",
+                      "updatedAt": "2023-04-17T16:16:22.557Z",
+                      "environment": {
+                        "sys": {
+                          "id": "dev",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "STIRR LOGO ",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/3kqcuzntcg31/PvqoRkSwKDcYs9vECftJZ/d71019b0b4fac983f50ee799065be925/logo_stirr.png",
+                        "details": {
+                          "size": 2354,
+                          "image": {
+                            "width": 170,
+                            "height": 170
+                          }
+                        },
+                        "fileName": "logo_stirr.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  },
+                  "background": "#FFDA3B",
+                  "logoHover": {
+                    "metadata": {
+                      "tags": []
+                    },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "3kqcuzntcg31"
+                        }
+                      },
+                      "id": "1FOMCNBLcLmKNiFQDXaeM5",
+                      "type": "Asset",
+                      "createdAt": "2023-04-17T16:16:37.482Z",
+                      "updatedAt": "2023-04-17T16:16:37.482Z",
+                      "environment": {
+                        "sys": {
+                          "id": "dev",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "STIRR HOVER",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/3kqcuzntcg31/1FOMCNBLcLmKNiFQDXaeM5/44238e2a642bdaafc27af21c9ee50254/logo_stirr_hover.png",
+                        "details": {
+                          "size": 2339,
+                          "image": {
+                            "width": 170,
+                            "height": 170
+                          }
+                        },
+                        "fileName": "logo_stirr_hover.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  },
+                  "backgroundColorHover": "#EDEDED"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "content": []
+    },
+    {
       "nodeType": "paragraph",
       "data": {},
       "content": [{ "nodeType": "text", "value": "embedded asset ", "marks": [], "data": {} }]
