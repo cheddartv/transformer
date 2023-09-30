@@ -1,4 +1,5 @@
 import config from '../../../config'
+import resolveImageDomain from "../../resolveImageDomain";
 
 export default (node) => {
   return `<div class="${config.embed.platformsList.class}">
@@ -8,7 +9,7 @@ export default (node) => {
               ?.map((platform) => {
                 return `<a class="platform-link" href="${platform?.fields?.url}">
                           <div class="platform" style="background: ${platform?.fields?.background}">
-                            <img src="https:${platform?.fields?.logo?.fields?.file?.url}" alt="${platform?.fields?.logo?.fields?.title}">
+                            <img src="https:${resolveImageDomain(platform?.fields?.logo?.fields?.file?.url)}" alt="${platform?.fields?.logo?.fields?.title}">
                           </div>
                         </a>`
               })
