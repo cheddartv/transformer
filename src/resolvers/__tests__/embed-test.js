@@ -21,7 +21,7 @@ describe('embed', () => {
       const embedHtml = embedResolver(youtubeBlock.data, config)
       const expectedHtml = `
         <div class=\"embed\" style=\"width: 580px;\">
-          <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">  
+          <embed class=\"embed\" height=\"320\" width=\"580\" src=\"https://www.youtube.com/embed/BDBnm9i_DBE\">
           <em></em>
         </div>`
       expect(formatString(embedHtml)).toBe(formatString(expectedHtml))
@@ -45,7 +45,7 @@ describe('embed', () => {
       const embedHtml = embedResolver(cheddarVideoBlock.data, config)
       const expectedHtml = `
         <div class=\"embed\" style="width: 560px;">
-          <embed class=\"embed\" height=\"315\" width=\"560\" 
+          <embed class=\"embed\" height=\"315\" width=\"560\"
             src=\"https://cheddar.com/media/apples-new-budget-iphone-will-be-faster-and-more-expensive/player?autoplay=false\">
           <em></em>
         </div>`
@@ -57,8 +57,8 @@ describe('embed', () => {
   describe('ugc carousel', () => {
     const ugcCarousel = {
       "data": {
-        "embed": "https://ugc.curds.io/carousel/8",
-        "source": "https://ugc.curds.io/carousel/8",
+        "embed": "https://ugc.alticeustech.com/carousel/8",
+        "source": "https://ugc.alticeustech.com/carousel/8",
         "caption": "",
         "service": "ugc_carousel"
       },
@@ -68,7 +68,7 @@ describe('embed', () => {
     it('should map carousel node correctly', () => {})
     const expectedHtml = `
       <div class=\"embed\">
-        <embed class=\"carousel-embed\" src=\"https://ugc.curds.io/carousel/8\">  
+        <embed class=\"carousel-embed\" src=\"https://ugc.alticeustech.com/carousel/8\">
         <em></em>
       </div>`
 
@@ -79,8 +79,8 @@ describe('embed', () => {
   describe('ugc form', () => {
     const ugcForm = {
       "data": {
-        "embed": "https://ugc.curds.io/formviewer/display/365",
-        "source": "https://ugc.curds.io/formviewer/display/365",
+        "embed": "https://ugc.alticeustech.com/formviewer/display/365",
+        "source": "https://ugc.alticeustech.com/formviewer/display/365",
         "caption": "",
         "service": "ugc_form"
       },
@@ -90,7 +90,7 @@ describe('embed', () => {
     it('should map ugc form correctly', () => {
       const expectedHtml = `
         <div class=\"embed\">
-          <embed class=\"form-embed\" src=\"https://ugc.curds.io/formviewer/display/365\">  
+          <embed class=\"form-embed\" src=\"https://ugc.alticeustech.com/formviewer/display/365\">
           <em></em>
         </div>`
 
@@ -115,7 +115,7 @@ describe('embed', () => {
     it('should map facebook video node correctly', () => {
       const expectedHtml = `
         <div class="embed" style="width: 552px;">
-          <embed class="embed" height="315" width="552" 
+          <embed class="embed" height="315" width="552"
             src="https://www.facebook.com/video/embed?video_id=1566308450213846">
           <em></em>
         </div>`
