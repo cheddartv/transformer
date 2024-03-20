@@ -33,6 +33,9 @@ export default {
     instagram: {
       class: 'instagram-embed'
     },
+    platformsList: {
+      class: 'platforms-list-embed'
+    },
     soundcloud: {
       class: 'soundcloud-embed'
     },

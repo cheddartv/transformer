@@ -1,4 +1,5 @@
 import config from '../../config'
+import resolveImageDomain from "../resolveImageDomain";
 
 
 const FALLBACK_IMAGE_URL =
@@ -7,6 +8,6 @@ const FALLBACK_IMAGE_URL =
 export default (node) =>
   `<div
     class="${config.video.class}"
-    data-poster="https:${node?.data?.target?.fields?.thumbnail?.fields?.file?.url ?? FALLBACK_IMAGE_URL}?fit=fill&w=1920&h=1080&q=85"
+    data-poster="https:${resolveImageDomain(node?.data?.target?.fields?.thumbnail?.fields?.file?.url) || FALLBACK_IMAGE_URL}?fit=fill&w=1920&h=1080&q=85"
     data-isLive="${node?.data?.target?.fields?.isLive}"
     data-src="${node?.data?.target?.fields?.videoUrls?.['application/x-mpegURL']}"></div>`

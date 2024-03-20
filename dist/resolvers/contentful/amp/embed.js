@@ -11,6 +11,8 @@ var _instagram = _interopRequireDefault(require("./instagram"));
 
 var _storylist = _interopRequireDefault(require("./storylist"));
 
+var _platformsList = _interopRequireDefault(require("./platformsList"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var _default = function _default(node) {
@@ -31,6 +33,9 @@ var _default = function _default(node) {
 
     case 'list':
       return (0, _storylist["default"])(node);
+
+    case 'platformsList':
+      return (0, _platformsList["default"])(node);
 
     default:
       return '';
