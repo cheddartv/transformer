@@ -57,8 +57,8 @@ describe('embed', () => {
   describe('ugc carousel', () => {
     const ugcCarousel = {
       "data": {
-        "embed": "https://ugc.alticeustech.com/carousel/8",
-        "source": "https://ugc.alticeustech.com/carousel/8",
+        "embed": "https://ugc.prod.alticeustech.com/carousel/8",
+        "source": "https://ugc.prod.alticeustech.com/carousel/8",
         "caption": "",
         "service": "ugc_carousel"
       },
@@ -68,7 +68,7 @@ describe('embed', () => {
     it('should map carousel node correctly', () => {})
     const expectedHtml = `
       <div class=\"embed\">
-        <embed class=\"carousel-embed\" src=\"https://ugc.alticeustech.com/carousel/8\">
+        <embed class=\"carousel-embed\" src=\"https://ugc.prod.alticeustech.com/carousel/8\">
         <em></em>
       </div>`
 
@@ -79,8 +79,8 @@ describe('embed', () => {
   describe('ugc form', () => {
     const ugcForm = {
       "data": {
-        "embed": "https://ugc.alticeustech.com/formviewer/display/365",
-        "source": "https://ugc.alticeustech.com/formviewer/display/365",
+        "embed": "https://ugc.prod.alticeustech.com/formviewer/display/365",
+        "source": "https://ugc.prod.alticeustech.com/formviewer/display/365",
         "caption": "",
         "service": "ugc_form"
       },
@@ -90,7 +90,7 @@ describe('embed', () => {
     it('should map ugc form correctly', () => {
       const expectedHtml = `
         <div class=\"embed\">
-          <embed class=\"form-embed\" src=\"https://ugc.alticeustech.com/formviewer/display/365\">
+          <embed class=\"form-embed\" src=\"https://ugc.prod.alticeustech.com/formviewer/display/365\">
           <em></em>
         </div>`
 

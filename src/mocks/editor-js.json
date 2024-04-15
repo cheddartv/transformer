@@ -35,8 +35,8 @@
   },
   {
     "data": {
-      "embed": "https://ugc.alticeustech.com/carousel/8",
-      "source": "https://ugc.alticeustech.com/carousel/8",
+      "embed": "https://ugc.prod.alticeustech.com/carousel/8",
+      "source": "https://ugc.prod.alticeustech.com/carousel/8",
       "caption": "",
       "service": "ugc_carousel"
     },
@@ -44,8 +44,8 @@
   },
   {
     "data": {
-      "embed": "https://ugc.alticeustech.com/formviewer/display/365",
-      "source": "https://ugc.alticeustech.com/formviewer/display/365",
+      "embed": "https://ugc.prod.alticeustech.com/formviewer/display/365",
+      "source": "https://ugc.prod.alticeustech.com/formviewer/display/365",
       "caption": "",
       "service": "ugc_form"
     },
