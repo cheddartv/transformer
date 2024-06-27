@@ -60,8 +60,8 @@ describe('embed', () => {
   describe('ugc carousel', () => {
     const ugcCarousel = {
       "data": {
-        "embed": "https://ugc.curds.io/carousel/8",
-        "source": "https://ugc.curds.io/carousel/8",
+        "embed": "https://ugc.prod.alticeustech.com/carousel/8",
+        "source": "https://ugc.prod.alticeustech.com/carousel/8",
         "caption": "",
         "service": "ugc_carousel"
       },
@@ -74,7 +74,7 @@ describe('embed', () => {
           width=\"100\"
           height=\"100\"
           class=\"carousel-embed\"
-          src=\"https://ugc.curds.io/carousel/8\"
+          src=\"https://ugc.prod.alticeustech.com/carousel/8\"
           sandbox=\"allow-scripts allow-same-origin\">
             <amp-img placeholder
               src=\"/loading-animation.gif\"
@@ -91,8 +91,8 @@ describe('embed', () => {
   describe('ugc form', () => {
     const ugcForm = {
       "data": {
-        "embed": "https://ugc.curds.io/formviewer/display/365",
-        "source": "https://ugc.curds.io/formviewer/display/365",
+        "embed": "https://ugc.prod.alticeustech.com/formviewer/display/365",
+        "source": "https://ugc.prod.alticeustech.com/formviewer/display/365",
         "caption": "",
         "service": "ugc_form"
       },
@@ -105,7 +105,7 @@ describe('embed', () => {
           width=\"100\"
           height=\"100\"
           class=\"form-embed\"
-          src=\"https://ugc.curds.io/formviewer/display/365\"
+          src=\"https://ugc.prod.alticeustech.com/formviewer/display/365\"
           sandbox=\"allow-scripts allow-same-origin\">
             <amp-img placeholder
               src=\"/loading-animation.gif\"

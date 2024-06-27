@@ -6,7 +6,7 @@ export default (node) =>
   width="100"
   height="100"
   class="${config.embed.form.class}"
-  src="https://ugc.curds.io/formviewer/display/${node?.content}"
+  src="https://ugc.prod.alticeustech.com/formviewer/display/${node?.content}"
   sandbox="allow-scripts allow-same-origin">
     <amp-img placeholder
       src="/loading-animation.gif"
