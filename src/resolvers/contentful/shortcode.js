@@ -5,6 +5,7 @@ import {
   form,
   gallery,
   googleMaps,
+  instagram,
   soundcloud,
   spotim,
   spotify,
@@ -16,11 +17,13 @@ import {
 } from '.'
 
 export default (node) => {
-  const shortcode = shortcodeParser(node?.content?.[0]?.value)
+      const shortcode = shortcodeParser(node?.content?.[0]?.value)
 
   switch (shortcode.name) {
     case 'associated-press':
       return associatedPress(shortcode)
+    case 'instagram':
+      return instagram(shortcode)
     case 'facebook':
       return facebook(shortcode)
     case 'google-maps':

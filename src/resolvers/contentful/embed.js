@@ -46,6 +46,6 @@ export default (node) => {
     case 'platformsList':
       return platformsList(node)
     default:
-      return ''
+      return type
   }
 }

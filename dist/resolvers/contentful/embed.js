@@ -63,7 +63,7 @@ var _default = function _default(node) {
       return (0, _platformsList["default"])(node);
 
     default:
-      return '';
+      return type;
   }
 };
 

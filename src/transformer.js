@@ -85,7 +85,7 @@ function data({ amp, blocks }) {
     case 'editorJS':
       return parseEditorJS({ blocks, amp })
     case 'contentfulRTE':
-      return beutifyHTML(parseContentfulRTE({ document: blocks, amp }), formatOptions)
+     return beutifyHTML(parseContentfulRTE({ document: blocks, amp }), formatOptions)
     default:
       return ''
   }
