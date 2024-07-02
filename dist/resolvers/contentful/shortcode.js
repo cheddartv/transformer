@@ -20,6 +20,9 @@ var _default = function _default(node) {
     case 'associated-press':
       return (0, _.associatedPress)(shortcode);
 
+    case 'instagram':
+      return (0, _.instagram)(shortcode);
+
     case 'facebook':
       return (0, _.facebook)(shortcode);
 

@@ -39,6 +39,12 @@ Object.defineProperty(exports, "googleMaps", {
     return _googleMaps["default"];
   }
 });
+Object.defineProperty(exports, "instagram", {
+  enumerable: true,
+  get: function get() {
+    return _instagram["default"];
+  }
+});
 Object.defineProperty(exports, "list", {
   enumerable: true,
   get: function get() {
@@ -141,6 +147,8 @@ var _ugcForm = _interopRequireDefault(require("./ugc-form"));
 var _ugcGallery = _interopRequireDefault(require("./ugc-gallery"));
 
 var _googleMaps = _interopRequireDefault(require("./google-maps"));
+
+var _instagram = _interopRequireDefault(require("./instagram"));
 
 var _listItem = _interopRequireDefault(require("./list-item"));
 

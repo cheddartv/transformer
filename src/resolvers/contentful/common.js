@@ -36,3 +36,9 @@ export const extractSpotifyId = url => {
   const match = url.match(regex)
   return match ? match[0] : false
 }
+
+export const extractInstagramId = url => {
+  const regex = /https:\/\/www\.instagram\.com\/p\/([a-zA-Z0-9_-]+)\//
+  const match = url.match(regex)
+  return match ? match[1] : false
+}

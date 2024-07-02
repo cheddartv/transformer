@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.removeParagraphNode = exports.isShortCode = exports.extractYoutubeVideoId = exports.extractVimeoId = exports.extractTikTokVideoId = exports.extractSpotifyId = void 0;
+exports.removeParagraphNode = exports.isShortCode = exports.extractYoutubeVideoId = exports.extractVimeoId = exports.extractTikTokVideoId = exports.extractSpotifyId = exports.extractInstagramId = void 0;
 
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
@@ -76,3 +76,11 @@ var extractSpotifyId = function extractSpotifyId(url) {
 };
 
 exports.extractSpotifyId = extractSpotifyId;
+
+var extractInstagramId = function extractInstagramId(url) {
+  var regex = /https:\/\/www\.instagram\.com\/p\/([a-zA-Z0-9_-]+)\//;
+  var match = url.match(regex);
+  return match ? match[1] : false;
+};
+
+exports.extractInstagramId = extractInstagramId;
