@@ -5,6 +5,7 @@ import {
   form,
   gallery,
   googleMaps,
+  instagram,
   soundcloud,
   spotim,
   spotify,
@@ -21,6 +22,8 @@ export default (node) => {
   switch (shortcode.name) {
     case 'associated-press':
       return associatedPress(shortcode)
+    case 'instagram':
+      return instagram(shortcode)
     case 'facebook':
       return facebook(shortcode)
     case 'google-maps':
